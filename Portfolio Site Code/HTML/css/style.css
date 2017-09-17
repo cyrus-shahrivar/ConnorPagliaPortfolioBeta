@@ -1681,3 +1681,14 @@ line-height: 24px;
 #owl-blog-single  .owl-controls {
     height: 0;
 }
+
+.contact-section-padding-fix {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-container-fluid-fix {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
