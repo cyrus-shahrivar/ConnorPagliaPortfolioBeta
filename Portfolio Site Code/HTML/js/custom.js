@@ -173,15 +173,16 @@ $(document).ready(function () {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* smoothscroll */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    smoothScroll.init({
-        speed: 1000
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+        offset: 50, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        before: function () {
+            // console.log('in smooth scroll before callback');
+        }, // Callback to run before scroll
+        after: function () {
+            // console.log('in smooth scroll after callback');
+        } // Callback to run after scroll
     });
-
-
-
-
-
-
 
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
