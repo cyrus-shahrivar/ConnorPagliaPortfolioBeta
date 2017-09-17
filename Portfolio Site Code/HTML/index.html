@@ -154,13 +154,13 @@
         <!--/* TEXT SEPARATOR */-->
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <section id="text-separator-clients">
-            <div class="container-fluid" data-scroll-reveal="enter left move 10px over 1s after 1s">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row clients-reveal">
                     <div class="col-md-4 col-sm-12 col-xs-12 clientsIntro text-center">
                         <h2>Clients</h2>
                     </div>
                 </div>
-                <div class="row clients-row">
+                <div class="row clients-reveal">
                     <div class="clientLogo col-xs-6 col-lg-3">
                         <a href="#"><img src="img/clients/1.png" class="img-responsive center-block" alt="image"></a>
                     </div>
@@ -576,6 +576,14 @@
             $.backstretch('img/background1.jpg');
         </script>
 
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+            // Changing the defaults
+            window.sr = ScrollReveal({ reset: true });
+
+            // Customizing a reveal set
+            sr.reveal('.clients-reveal', { duration: 2000, origin: 'left', distance: '50px', scale: 1 });
+        </script>
 
 	</body>
 </html>
