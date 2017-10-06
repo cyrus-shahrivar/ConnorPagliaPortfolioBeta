@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clients</title>
+</head>
+<body>
+    <div class="attachHere">
+
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/handlebars-v4.0.10.js"></script>
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div>
+          <h1>{{title}}</h1>
+          <div>
+            {{blurb}}
+          </div>
+        </div>
+    </script>
+    <script>
+        var source   = $("#entry-template").html();
+        var template = Handlebars.compile(source);
+
+        $.getJSON('https://cyrus-shahrivar.github.io/jsonGetterExample/test.json').done(function (data) {
+            var html = template(data);
+            var $attachment = $('.attachHere');
+            $attachment.html(html);
+        })
+    </script>
+</body>
+</html>

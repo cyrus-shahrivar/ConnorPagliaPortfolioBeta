@@ -1,0 +1,39 @@
+{
+    "clientShortName": "Eurosport",
+    "logo": ".jpg",
+    "largeLetter": "E",
+    "title": "Eurosport Player",
+    "blurb": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+    "clientOfficialName": "Discovery Communnications",
+    "role": "Lead Designer",
+    "detailSections": [
+        {
+            "title": "Understanding the fans",
+            "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+            "imageScheme": "one-two-splice",
+            "images": [
+                ".jpg",
+                ".jpg",
+                ".jpg"
+            ] 
+        },
+        {
+            "title": "Understanding the fans",
+            "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+            "imageScheme": "one-two-split",
+            "images": [
+                ".jpg",
+                ".jpg",
+                ".jpg"
+            ] 
+        },
+        {
+            "title": "Understanding the fans",
+            "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+            "imageScheme": "single",
+            "images": [
+                ".jpg"
+            ] 
+        }
+    ]
+}
