@@ -51,6 +51,27 @@
             </section>
         </section>
     </script>
+    <script id="content" type="text/x-handlebars-template">
+        <section class="main-content">
+            <section class="detail-sections">
+                {{#each detailSections}}
+                    <section class="detail-section detail-section--{{imageScheme}}">
+                        <div class="detail-section__description">
+                            <h1 class="detail-section__title">{{title}}</h1>
+                            <p class="detail-section__blurb">{{blurb}}</p>
+                        </div>
+                        <div class="detail-section__images--{{imageScheme}}">
+                            {{#each images}}
+                                <div class="detail-section__image-container">
+                                    <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </section>
+                {{/each}}
+            </section>
+        </section>
+    </script>
     <script id="footer" type="text/x-handlebars-template">
         <section class="more-work">
             <a class="more-work__title" href="/index.html#portfolio">&#10229; MORE WORK</a>
@@ -76,6 +97,7 @@
         {{> header}}
         <main>
             {{> hero}}
+            {{> content}}
         </main>
         {{> footer}}
     </script>
@@ -85,6 +107,8 @@
         Handlebars.registerPartial('header', headerPartial);
         var heroPartial = $('#hero').html();
         Handlebars.registerPartial('hero', heroPartial);
+        var contentPartial = $('#content').html();
+        Handlebars.registerPartial('content', contentPartial);
         var footerPartial = $('#footer').html();
         Handlebars.registerPartial('footer', footerPartial);
 

@@ -13,9 +13,9 @@
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "one-two-splice",
             "images": [
-                ".jpg",
-                ".jpg",
-                ".jpg"
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680"
             ] 
         },
         {
@@ -23,9 +23,9 @@
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "one-two-split",
             "images": [
-                ".jpg",
-                ".jpg",
-                ".jpg"
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680"
             ] 
         },
         {
@@ -33,7 +33,9 @@
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "single",
             "images": [
-                ".jpg"
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680",
+                "https://source.unsplash.com/random/1200x680"
             ] 
         }
     ]
