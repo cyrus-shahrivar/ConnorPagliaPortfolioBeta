@@ -5,29 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clients</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/clients.css">
 </head>
 <body>
-    <div class="attachHere">
-
-    </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/handlebars-v4.0.10.js"></script>
-    <script id="entry-template" type="text/x-handlebars-template">
-        <div>
-          <h1>{{title}}</h1>
-          <div>
-            {{blurb}}
-          </div>
-        </div>
+    <script id="header" type="text/x-handlebars-template">
+        <header class="header">
+            <div class="header__logo">
+                CP
+            </div>
+            <nav class="header__nav-bar">
+                <ul>
+                    <li>Home</li>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>               
+            </nav>
+        </header>
+    </script>
+    <script id="hero" type="text/x-handlebars-template">
+        <section class="hero">
+            <section class="hero__description">
+                <div class="hero__large-letter">{{largeLetter}}</div>
+                <div class="hero__logo" style="background-image: url({{logo}});">
+                </div>
+                <hr class="hero__divider" style="background-color: {{primaryColor}};">
+                <h1 class="hero__title">{{title}}</h1>
+                <h2 class="hero__subtitle">{{subtitle}}</h2>
+                <div class="hero__details">
+                    <div class="hero__client">
+                        <h3 class="hero__client-title">Client</h3>
+                        <p class="hero__client-description">{{clientOfficialName}}</p>
+                    </div>
+                    <div class="hero__role">
+                        <h3 class="hero__role-title">Role</h3>
+                        <p class="hero__role-description">{{role}}</p>
+                    </div>
+                </div>
+            </section><section class="hero__image" style="background-image: url(https://source.unsplash.com/random/800x800); background-color: {{primaryColor}};">
+            </section>
+        </section>
+    </script>
+    <script id="footer" type="text/x-handlebars-template">
+        <section class="more-work">
+            <a class="more-work__title" href="/index.html#portfolio">&#10229; MORE WORK</a>
+        </section>
+        <footer class="footer">
+            <div class="footer__up-arrow"></div>
+            <h1 class="footer__back-to-top">
+                <i class="fa fa-angle-double-up"></i><br>
+                <h5 class="footer__back-to-top__link">Back To Top</h5>
+            </h1>
+            <div class="footer__social-links">
+                <ul class="footer__social-links-list">
+                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__copyright"><span class="footer__legal-bold">All Rights Reserved.</span> CP Design 2017.</div>
+        </footer>
+    </script>
+    <script id="main" type="text/x-handlebars-template">
+        {{> header}}
+        <main>
+            {{> hero}}
+        </main>
+        {{> footer}}
     </script>
     <script>
-        var source   = $("#entry-template").html();
-        var template = Handlebars.compile(source);
+        // Partial Registration
+        var headerPartial = $('#header').html();
+        Handlebars.registerPartial('header', headerPartial);
+        var heroPartial = $('#hero').html();
+        Handlebars.registerPartial('hero', heroPartial);
+        var footerPartial = $('#footer').html();
+        Handlebars.registerPartial('footer', footerPartial);
 
-        $.getJSON('https://cyrus-shahrivar.github.io/jsonGetterExample/test.json').done(function (data) {
-            var html = template(data);
-            var $attachment = $('.attachHere');
-            $attachment.html(html);
+        // Compile Main Template
+        var mainTemplate = $("#main").html();
+        var compiledTemplate = Handlebars.compile(mainTemplate);
+
+        $.getJSON('data.json').done(function (data) {
+            var compiledHtml = compiledTemplate(data);
+            var $body = $('body');
+            $body.html(compiledHtml);
         })
     </script>
 </body>

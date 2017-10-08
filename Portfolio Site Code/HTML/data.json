@@ -1,9 +1,10 @@
 {
     "clientShortName": "Eurosport",
-    "logo": ".jpg",
+    "logo": "img/clients/euro.png",
     "largeLetter": "E",
+    "primaryColor": "#f4224b",
     "title": "Eurosport Player",
-    "blurb": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+    "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
     "clientOfficialName": "Discovery Communnications",
     "role": "Lead Designer",
     "detailSections": [
