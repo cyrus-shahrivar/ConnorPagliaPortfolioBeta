@@ -61,10 +61,14 @@
                             <p class="detail-section__blurb">{{blurb}}</p>
                         </div>
                         <div class="detail-section__images--{{imageScheme}}">
-                            {{#each images}}
-                                <div class="detail-section__image-container">
-                                    <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
-                                </div>
+                            {{#each imageGroups}}
+                                <div class="detail-section__image-group">
+                                    {{#each this}}
+                                    <div class="detail-section__image-container">
+                                        <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
+                                    </div>
+                                    {{/each}}
+                                </div> 
                             {{/each}}
                         </div>
                     </section>

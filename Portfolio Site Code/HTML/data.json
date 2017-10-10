@@ -12,30 +12,61 @@
             "title": "Understanding the fans",
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "one-two-splice",
-            "images": [
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680"
-            ] 
+            "imageGroups": [
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ],
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ],
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ]
+            ]
         },
         {
             "title": "Understanding the fans",
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "one-two-split",
-            "images": [
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680"
+            "imageGroups": [
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ],
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ],
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ]
             ] 
         },
         {
             "title": "Understanding the fans",
             "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
             "imageScheme": "single",
-            "images": [
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680",
-                "https://source.unsplash.com/random/1200x680"
+            "imageGroups": [
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ],
+                [
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680",
+                    "https://source.unsplash.com/random/1200x680"
+                ]
             ] 
         }
     ]
