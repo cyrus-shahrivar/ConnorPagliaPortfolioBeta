@@ -413,3 +413,31 @@ table {
 
     /* End of Hero */
 }
+
+@media (max-width: 980px) {
+    .hero__image {
+        display: none;
+    }
+
+    .hero__description {
+        max-height: 100vh;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .hero__title,
+    .hero__subtitle {
+        max-width: 450px;
+    }
+
+    .detail-section__images--one-two-splice .detail-section__image-container:first-child,
+    .detail-section__images--single .detail-section__image-container,
+    .detail-section--one-two-split {
+        padding: 0 60px;
+    }
+
+    .detail-section--one-two-splice .detail-section__description,
+    .detail-section--single .detail-section__description {
+        margin: 0 60px;
+    }
+}
