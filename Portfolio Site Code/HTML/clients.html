@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/clients.css">
 </head>
+
 <body>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/handlebars-v4.0.10.js"></script>
@@ -24,7 +26,7 @@
                     <li>Portfolio</li>
                     <li>About</li>
                     <li>Contact</li>
-                </ul>               
+                </ul>
             </nav>
         </header>
     </script>
@@ -47,7 +49,8 @@
                         <p class="hero__role-description">{{role}}</p>
                     </div>
                 </div>
-            </section><section class="hero__image" style="background-image: url(https://source.unsplash.com/random/800x800); background-color: {{primaryColor}};">
+            </section>
+            <section class="hero__image" style="background-image: url(https://source.unsplash.com/random/800x800); background-color: {{primaryColor}};">
             </section>
         </section>
     </script>
@@ -55,30 +58,30 @@
         <section class="main-content">
             <section class="detail-sections">
                 {{#each detailSections}}
-                    <section class="detail-section detail-section--{{imageScheme}}">
-                        <div class="detail-section__description">
-                            <h1 class="detail-section__title">{{title}}</h1>
-                            <p class="detail-section__blurb">{{blurb}}</p>
-                        </div>
-                        <div class="detail-section__images--{{imageScheme}}">
-                            {{#each imageGroups}}
-                                <div class="detail-section__image-group">
-                                    {{#each this}}
-                                    <div class="detail-section__image-container">
-                                        <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
-                                    </div>
-                                    {{/each}}
-                                </div> 
+                <section class="detail-section detail-section--{{imageScheme}}">
+                    <div class="detail-section__description">
+                        <h1 class="detail-section__title">{{title}}</h1>
+                        <p class="detail-section__blurb">{{blurb}}</p>
+                    </div>
+                    <div class="detail-section__images--{{imageScheme}}">
+                        {{#each imageGroups}}
+                        <div class="detail-section__image-group">
+                            {{#each this}}
+                            <div class="detail-section__image-container">
+                                <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
+                            </div>
                             {{/each}}
                         </div>
-                    </section>
+                        {{/each}}
+                    </div>
+                </section>
                 {{/each}}
             </section>
         </section>
     </script>
     <script id="footer" type="text/x-handlebars-template">
         <section class="more-work">
-            <a class="more-work__title" href="/index.html#portfolio">&#10229; MORE WORK</a>
+            <a class="more-work__title" href="/index.html?clientPageReturn=true">&#10229; MORE WORK</a>
         </section>
         <footer class="footer">
             <div class="footer__up-arrow"></div>
@@ -100,8 +103,7 @@
     <script id="main" type="text/x-handlebars-template">
         {{> header}}
         <main>
-            {{> hero}}
-            {{> content}}
+            {{> hero}} {{> content}}
         </main>
         {{> footer}}
     </script>
@@ -120,11 +122,15 @@
         var mainTemplate = $("#main").html();
         var compiledTemplate = Handlebars.compile(mainTemplate);
 
-        $.getJSON('data.json').done(function (data) {
-            var compiledHtml = compiledTemplate(data);
+        // Get Correct Data
+        var clientName = window.location.search.split('name=')[1];
+
+        $.getJSON('data.json').done(function(data) {
+            var compiledHtml = compiledTemplate(data[clientName]);
             var $body = $('body');
             $body.html(compiledHtml);
         })
     </script>
 </body>
+
 </html>
