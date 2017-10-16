@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clients</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700,800" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/clients.css">
 </head>
@@ -31,7 +30,7 @@
         </header>
     </script>
     <script id="hero" type="text/x-handlebars-template">
-        <section class="hero">
+        <section id="hero-section" class="hero">
             <section class="hero__description">
                 <div class="hero__large-letter">{{largeLetter}}</div>
                 <div class="hero__logo" style="background-image: url({{logo}});">
@@ -86,8 +85,10 @@
         <footer class="footer">
             <div class="footer__up-arrow"></div>
             <h1 class="footer__back-to-top">
-                <i class="fa fa-angle-double-up"></i><br>
-                <h5 class="footer__back-to-top__link">Back To Top</h5>
+                <a data-scroll href="#hero-section" class="footer__back-to-top__link">
+                    <i class="fa fa-angle-double-up"></i><br>
+                    <h5>Back To Top</h5>
+                </a>
             </h1>
             <div class="footer__social-links">
                 <ul class="footer__social-links-list">
@@ -130,6 +131,16 @@
             var $body = $('body');
             $body.html(compiledHtml);
         })
+    </script>
+    <script src="js/clients.js"></script>
+    <script>
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+        /* smoothscroll */
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            offset: 50
+        });
     </script>
 </body>
 
