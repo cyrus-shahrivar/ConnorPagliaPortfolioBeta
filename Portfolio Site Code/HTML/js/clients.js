@@ -6,7 +6,7 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         var $header = $('header');
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 50) {
             $header.addClass('transition');
         } else {
             $header.removeClass('transition');

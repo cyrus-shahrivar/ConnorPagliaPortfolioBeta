@@ -57,7 +57,7 @@ table {
 
 /* Header */
 .header {
-    padding: 30px 50px 10px 50px;
+    padding: 45px 65px 10px 65px;
     position: fixed;
     top: 0;
     left: 0;
@@ -65,20 +65,20 @@ table {
     height: 50px;
     z-index: 10;
     background-color: transparent;
-    transition: background-color, height, padding-top 0.5s;
+    transition: all .5s ease .25s
 }
 
 .header.transition {
     background-color: #0F1014;
     height: 35px;
     padding-top: 20px;
-    transition: background-color, height, padding-top 0.5s;
+    transition: all .5s ease .25s
 }
 
 .header__logo {
     font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
     color: #fdfeff;
     float: left;
 }
