@@ -21,7 +21,7 @@
     <script id="header" type="text/x-handlebars-template">
         <header class="header">
             <div class="header__logo">
-                CP
+                <a href="/index.html?portfolioPageReturn=true&scrollTo=intro">CP</a>
             </div>
             <div class="header__mobile-menu-toggle">
                 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -29,10 +29,10 @@
             </div>
             <nav class="header__nav-bar">
                 <ul>
-                    <li><a>HOME</a></li>
-                    <li><a class="active">PORTFOLIO</a></li>
-                    <li><a>ABOUT</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=intro">HOME</a></li>
+                    <li><a class="active" href="/index.html?portfolioPageReturn=true&scrollTo=portfolio">PORTFOLIO</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=about">ABOUT</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -135,15 +135,6 @@
         })
     </script>
     <script src="js/clients.js"></script>
-    <script>
-        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-        /* smoothscroll */
-        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 1000,
-            offset: 50
-        });
-    </script>
 </body>
 
 </html>

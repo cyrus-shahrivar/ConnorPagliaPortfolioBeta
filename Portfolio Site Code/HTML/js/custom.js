@@ -281,15 +281,35 @@ $(document).ready(function() {
     // Portfolio Page Back Flow Scrolling
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    var isReturnFromClientsPage = window.location.search.split('portfolioPageReturn=')[1] === 'true';
+    var searchObject = {};
+    var searchQuery = window.location.search.split('&');
+    searchQuery.forEach(function (queryParamPair) {
+        var pair = queryParamPair;
+        if (queryParamPair.includes('?')) {
+            pair = pair.split('?')[1];
+        }
 
+        var key = pair.split('=')[0];
+        var value = pair.split('=')[1];
+        searchObject[key] = value;
+    })
+
+    var isReturnFromClientsPage = searchObject.portfolioPageReturn;
     if (isReturnFromClientsPage) {
-        var elementToScrollTo = document.getElementById('portfolio');
+        var scrollTo = searchObject.scrollTo;
+        var elementToScrollTo = document.getElementById(scrollTo);
+        var elementToScrollToScrollPosition = elementToScrollTo.offsetTop;
 
-        var scroll = new SmoothScroll();
-        scroll.animateScroll(elementToScrollTo, {
-            speed: 1000,
-            offset: 50
-        });
+        if (scrollTo === 'portfolio') {
+            $(window).scrollTop(elementToScrollToScrollPosition + 100);
+        } else {
+            $(window).scrollTop(elementToScrollToScrollPosition - 40);
+        }
+
+
+
+        console.log('element scroll', elementToScrollToScrollPosition)
+
+
     }
 });
