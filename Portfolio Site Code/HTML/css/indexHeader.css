@@ -1,0 +1,82 @@
+/* Header */
+.header {
+    padding: 45px 65px 10px 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 10;
+    background-color: transparent;
+    transition: all .5s ease .25s;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: initial;
+}
+
+.header.transition {
+    background-color: #0F1014;
+    height: 35px;
+    padding-top: 20px;
+    transition: all .5s ease .25s
+}
+
+.header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fdfeff;
+    float: left;
+    cursor: pointer;
+}
+
+.header__logo a,
+.header__logo a:hover,
+.header__logo a:active,
+.header__logo a:focus,
+.header__logo a:visited {
+    color: #fdfeff;
+    text-decoration: none;
+}
+
+.header__mobile-menu-toggle {
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header__nav-bar {
+    float: right;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.header ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+}
+
+.header ul li.active a {
+    color: white;
+}
+
+.header ul li a:hover {
+    color: #d5d5d5;
+    background-color: transparent;
+}

@@ -305,11 +305,18 @@ $(document).ready(function() {
         } else {
             $(window).scrollTop(elementToScrollToScrollPosition - 40);
         }
-
-
-
-        console.log('element scroll', elementToScrollToScrollPosition)
-
-
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Header Animation
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    $(window).scroll(function () {
+        var $header = $('header');
+        if ($(this).scrollTop() > 50) {
+            $header.addClass('transition');
+        } else {
+            $header.removeClass('transition');
+        }
+    })
 });

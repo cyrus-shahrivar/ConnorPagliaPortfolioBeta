@@ -40,6 +40,7 @@
     <link rel="stylesheet" type="text/css" href="css/preloader.css" />
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/indexHeader.css">
     <script src="js/modernizr.custom.js"></script>
 
 
@@ -51,35 +52,22 @@
         <![endif]-->
 </head>
 
-<body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
-
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    <a class="navbar-brand" href="#">CP</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a data-scroll href="#intro">Home</a></li>
-                        <li><a data-scroll href="#portfolio">Portfolio</a></li>
-                        <li><a data-scroll href="#about">About</a></li>
-                        <li><a data-scroll href="#contact">Contact</a></li>
-
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
+<body id="bigWrapper" data-spy="scroll" data-target=".header__nav-bar" data-offset="50">
+    <header class="header">
+        <div class="header__logo">
+            <a href="/index.html?portfolioPageReturn=true&scrollTo=intro">CP</a>
+        </div>
+        <div class="header__mobile-menu-toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <nav class="header__nav-bar">
+            <ul class="header__nav-list nav">
+                <li><a data-scroll href="#intro" class="active">Home</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
