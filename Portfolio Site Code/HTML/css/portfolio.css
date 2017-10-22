@@ -164,12 +164,15 @@ table {
 }
 
 .hero__logo {
-    width: 50px;
-    height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    left: -10px;
+    left: 4px;
+    margin-bottom: 15px;
+}
+
+.hero__logo--svg {
+    left: 3px;
 }
 
 .hero__divider {
@@ -177,6 +180,7 @@ table {
     border: none;
     width: 25px;
     margin: 0 0 15px 5px;
+    background-color: #444444;
 }
 
 .hero__title {

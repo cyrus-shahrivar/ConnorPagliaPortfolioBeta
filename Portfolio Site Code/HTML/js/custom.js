@@ -282,7 +282,7 @@ $(document).ready(function() {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     var bodyElement = document.getElementsByTagName('body')[0];
     var observer = new MutationObserver(function(event) {
-        var isReturnFromClientsPage = window.location.search.split('clientPageReturn=')[1] === 'true';
+        var isReturnFromClientsPage = window.location.search.split('portfolioPageReturn=')[1] === 'true';
         var hasIntroSlateCleared = event[0].target.className.includes('layout-switch');
 
         if (hasIntroSlateCleared && isReturnFromClientsPage) {

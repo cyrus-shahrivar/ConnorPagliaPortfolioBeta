@@ -8,7 +8,7 @@
     <title>Clients</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700,800" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/clients.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
@@ -29,8 +29,8 @@
             </div>
             <nav class="header__nav-bar">
                 <ul>
-                    <li><a class="active">Home</a></li>
-                    <li><a>Portfolio</a></li>
+                    <li><a>Home</a></li>
+                    <li><a class="active">Portfolio</a></li>
                     <li><a>About</a></li>
                     <li><a>Contact</a></li>
                 </ul>
@@ -41,9 +41,9 @@
         <section id="hero-section" class="hero">
             <section class="hero__description">
                 <div class="hero__large-letter">{{largeLetter}}</div>
-                <div class="hero__logo" style="background-image: url({{logo}});">
+                <div class="hero__logo {{#if isSvg}}{{isSvg}}{{/if}}" style="background-image: url({{logo}}); height: {{logoHeight}}; width: {{logoWidth}};">
                 </div>
-                <hr class="hero__divider" style="background-color: {{primaryColor}};">
+                <hr class="hero__divider">
                 <h1 class="hero__title">{{title}}</h1>
                 <h2 class="hero__subtitle">{{subtitle}}</h2>
                 <div class="hero__details">
@@ -88,16 +88,10 @@
     </script>
     <script id="footer" type="text/x-handlebars-template">
         <section class="more-work">
-            <a class="more-work__title" href="/index.html?clientPageReturn=true">&#10229; MORE WORK</a>
+            <a class="more-work__title" href="/index.html?portfolioPageReturn=true">&#10229; MORE WORK</a>
         </section>
         <footer class="footer">
             <div class="footer__up-arrow"></div>
-            <h1 class="footer__back-to-top">
-                <a data-scroll href="#hero-section" class="footer__back-to-top__link">
-                    <i class="fa fa-angle-double-up"></i><br>
-                    <h5>Back To Top</h5>
-                </a>
-            </h1>
             <div class="footer__social-links">
                 <ul class="footer__social-links-list">
                     <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
