@@ -278,30 +278,18 @@ $(document).ready(function() {
     });
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    // Loader Observer to Scroll
+    // Portfolio Page Back Flow Scrolling
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    var bodyElement = document.getElementsByTagName('body')[0];
-    var observer = new MutationObserver(function(event) {
-        var isReturnFromClientsPage = window.location.search.split('portfolioPageReturn=')[1] === 'true';
-        var hasIntroSlateCleared = event[0].target.className.includes('layout-switch');
 
-        if (hasIntroSlateCleared && isReturnFromClientsPage) {
-            console.log('scroll to portfolio after loader slate cleared');
+    var isReturnFromClientsPage = window.location.search.split('portfolioPageReturn=')[1] === 'true';
 
-            var elementToScrollTo = document.getElementById('portfolio');
+    if (isReturnFromClientsPage) {
+        var elementToScrollTo = document.getElementById('portfolio');
 
-            var scroll = new SmoothScroll();
-            scroll.animateScroll(elementToScrollTo, {
-                speed: 1000,
-                offset: 50
-            });
-        }
-    })
-
-    observer.observe(bodyElement, {
-        attributes: true,
-        attributeFilter: ['class'],
-        childList: false,
-        characterData: false
-    })
+        var scroll = new SmoothScroll();
+        scroll.animateScroll(elementToScrollTo, {
+            speed: 1000,
+            offset: 50
+        });
+    }
 });
