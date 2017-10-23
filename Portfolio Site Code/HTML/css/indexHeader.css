@@ -17,7 +17,7 @@
     box-sizing: initial;
 }
 
-.header.transition {
+.header.header-transition {
     background-color: #0F1014;
     height: 35px;
     padding-top: 20px;
@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 
-.header__mobile-menu-toggle {
+.header__open-button {
     display: none;
     color: white;
     font-size: 20px;
@@ -50,6 +50,10 @@
 
 .header__nav-bar {
     float: right;
+}
+
+.header__nav-bar--mobile {
+    display: none;
 }
 
 .header ul {
@@ -79,4 +83,85 @@
 .header ul li a:hover {
     color: #d5d5d5;
     background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .header__nav-bar {
+        display: none;
+    }
+
+    .header__nav-bar--mobile {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        float: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black url(../img/menu-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header__nav-bar--mobile .header__logo {
+        position: fixed;
+        top: 45px;
+        left: 65px;
+        transition: all .5s ease .25s;
+    }
+
+    .header__nav-bar--mobile .header__logo.mobile-toggle-transition {
+        top: 20px;
+        transition: all .5s ease .25s;
+    }
+
+    .header__close-button {
+        color: white;
+        position: fixed;
+        top: 45px;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    .header__open-button {
+        display: block;
+        position: fixed;
+        top: 45px;
+        right: 65px;
+        cursor: pointer;
+        transition: all .5s ease .25s;
+    }
+
+    .header__open-button.mobile-toggle-transition,
+    .header__close-button.mobile-toggle-transition {
+        top: 20px;
+        transition: all .5s ease .25s;
+    }
+
+    .header__nav-bar--mobile ul li {
+        display: block;
+        text-align: center;
+        margin: 0 0 70px 0;
+    }
+
+    .header__nav-bar--mobile ul li:last-child {
+        margin: 0;
+    }
+
+    .header__nav-bar--mobile ul li a {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.43;
+        text-align: center;
+        text-transform: none;
+    }
+
+    .header__mobile-menu-toggle {
+        display: block;
+    }
 }
