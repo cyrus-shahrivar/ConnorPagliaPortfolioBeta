@@ -6,10 +6,50 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         var $header = $('header');
+        var $openButton = $('.header__open-button');
+        var $closeButton = $('.header__close-button');
+        var $mobileLogo = $('.header__nav-bar--mobile .header__logo');
         if ($(this).scrollTop() > 50) {
-            $header.addClass('transition');
+            $header.addClass('header-transition');
+            $openButton.addClass('mobile-toggle-transition');
+            $closeButton.addClass('mobile-toggle-transition');
+            $mobileLogo.addClass('mobile-toggle-transition');
         } else {
-            $header.removeClass('transition');
+            $header.removeClass('header-transition');
+            $openButton.removeClass('mobile-toggle-transition');
+            $closeButton.removeClass('mobile-toggle-transition');
+            $mobileLogo.removeClass('mobile-toggle-transition');
         }
-    })
+    });
+
+    // Partial Registration
+    var headerPartial = $('#header').html();
+    Handlebars.registerPartial('header', headerPartial);
+    var heroPartial = $('#hero').html();
+    Handlebars.registerPartial('hero', heroPartial);
+    var contentPartial = $('#content').html();
+    Handlebars.registerPartial('content', contentPartial);
+    var footerPartial = $('#footer').html();
+    Handlebars.registerPartial('footer', footerPartial);
+
+    // Compile Main Template
+    var mainTemplate = $("#main").html();
+    var compiledTemplate = Handlebars.compile(mainTemplate);
+
+    // Get Correct Data
+    var clientName = window.location.search.split('name=')[1];
+
+    $.getJSON('data.json').done(function(data) {
+        var compiledHtml = compiledTemplate(data[clientName]);
+        var $body = $('body');
+        $body.html(compiledHtml);
+
+        $('.header__open-button').click(function() {
+            $('.header__nav-bar--mobile').slideDown();
+        });
+
+        $('.header__close-button').click(function() {
+            $('.header__nav-bar--mobile').slideUp();
+        });
+    });
 })
