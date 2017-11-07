@@ -14,11 +14,13 @@ $(document).ready(function() {
             $mobileBackgroundMask.on('transitionend', function () {
                 // slide down nav items
                 $mobileNavListItems.css('opacity', 1);
+                $mobileNavListItems.on('transitionend', function () {
+                    $mobileNav.removeClass('opening');
+                    $mobileNavListItems.off('transitionend');
+                });
                 $mobileBackgroundMask.off('transitionend')
             })
         });
-
-        $mobileNav.removeClass('opening');
     });
 
     $mobileHeaderCloseButton.click(function() {
@@ -26,6 +28,7 @@ $(document).ready(function() {
         // slide up nav items
         $mobileNavListItems.css('opacity', 0);
         $mobileBackgroundMask.on('transitionend', function () {
+            // slide close header
             $mobileNav.slideUp('slow', function () {
                 // do something?
             });
@@ -33,13 +36,12 @@ $(document).ready(function() {
         });
 
         $mobileNavListItems.on('transitionend', function () {
+            $mobileNav.removeClass('closing');
             // fade out image
             $mobileBackgroundMask.css('opacity', 1);
             $mobileNavListItems.off('transitionend');
         });
-        // slide close header
 
-        $mobileNav.removeClass('closing');
     });
 
     $mobileNav.hide();
