@@ -80,6 +80,10 @@
     color: white;
 }
 
+.header ul li a:focus {
+    background-color: transparent;
+}
+
 .header ul li a:hover {
     color: #d5d5d5;
     background-color: transparent;
