@@ -300,11 +300,7 @@ $(document).ready(function() {
         var elementToScrollTo = document.getElementById(scrollTo);
         var elementToScrollToScrollPosition = elementToScrollTo.offsetTop;
 
-        if (scrollTo === 'portfolio') {
-            $(window).scrollTop(elementToScrollToScrollPosition + 100);
-        } else {
-            $(window).scrollTop(elementToScrollToScrollPosition - 40);
-        }
+        $(window).scrollTop(elementToScrollToScrollPosition - 40);
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
