@@ -300,7 +300,7 @@ $(document).ready(function() {
         var elementToScrollTo = document.getElementById(scrollTo);
         var elementToScrollToScrollPosition = elementToScrollTo.offsetTop;
 
-        $(window).scrollTop(elementToScrollToScrollPosition - 40);
+        $(window).scrollTop(elementToScrollToScrollPosition - 65);
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
