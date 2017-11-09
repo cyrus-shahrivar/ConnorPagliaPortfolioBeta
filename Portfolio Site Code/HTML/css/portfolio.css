@@ -558,6 +558,10 @@ table {
         transition: all .5s ease .25s;
     }
 
+    .header__nav-bar--mobile ul {
+        padding-left: 0;
+    }
+
     .header__nav-bar--mobile ul li {
         display: block;
         text-align: center;
