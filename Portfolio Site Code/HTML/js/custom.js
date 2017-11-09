@@ -324,4 +324,23 @@ $(document).ready(function() {
             $mobileLogo.removeClass('mobile-toggle-transition');
         }
     });
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Client Logos
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    $(window).on('resize', function () {
+        if (window.innerWidth < 768) {
+            $('.client-logos-container .clientLogo').removeClass('col--2').addClass('col--4');
+        } else {
+            $('.client-logos-container .clientLogo').removeClass('col--4').addClass('col--2');
+        }
+    });
+
+    if (window.innerWidth < 768) {
+        $('.client-logos-container .clientLogo').removeClass('col--2').addClass('col--4');
+    } else {
+        $('.client-logos-container .clientLogo').removeClass('col--4').addClass('col--2');
+    }
+
 });

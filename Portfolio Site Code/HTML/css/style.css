@@ -982,10 +982,15 @@ color:#B6B8BD;
     color:white;
 }
 
+.client-logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
 
 .clientLogo img{
-    width: 150px;
-    padding-top: 5px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1695,4 +1700,14 @@ line-height: 24px;
 
 .about-scrollspy-fix {
     display: block;
+}
+
+.col--2 {
+    flex: 0 0 auto;
+    flex-basis: 16.667%;
+}
+
+.col--4 {
+    flex: 0 0 auto;
+    flex-basis: 33.333%;
 }
