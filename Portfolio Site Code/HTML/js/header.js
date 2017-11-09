@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var $mobileHeaderOpenButton = $('.header__open-button');
-    var $mobileHeaderCloseButton = $('.header__close-button');
+    var $mobileHeaderCloseButtonOrListItem = $('.header__close-button, .header__nav-bar--mobile ul li a');
     var $mobileNav = $('.header__nav-bar--mobile');
     var $mobileBackgroundMask = $('.header__background-mask');
     var $mobileNavListItems = $('.header__nav-bar--mobile li');
@@ -23,7 +23,7 @@ $(document).ready(function() {
         });
     });
 
-    $mobileHeaderCloseButton.click(function() {
+    $mobileHeaderCloseButtonOrListItem.click(function(e) {
         $mobileNav.addClass('closing');
         // slide up nav items
         $mobileNavListItems.css('opacity', 0);
