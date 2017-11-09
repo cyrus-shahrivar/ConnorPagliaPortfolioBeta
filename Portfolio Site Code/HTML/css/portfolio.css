@@ -625,5 +625,6 @@ table {
         opacity: 1;
         background-color: black;
         transition: opacity 600ms ease-in-out;
+        z-index: -1;
     }
 }
