@@ -1,6 +1,7 @@
 {
     "eurosport": {
         "clientShortName": "Eurosport",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/eurosport.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "23px",
@@ -76,6 +77,7 @@
     },
     "hbo": {
         "clientShortName": "HBO",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/hbo.png",
         "logoHeight": "20px",
         "logoWidth": "47px",
@@ -150,6 +152,7 @@
     },
     "mysteriousDeep": {
         "clientShortName": "Mysterious Deep",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/mysterious-deep.png",
         "logoHeight": "20px",
         "logoWidth": "20px",
@@ -224,6 +227,7 @@
     },
     "nhl": {
         "clientShortName": "NHL",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/nhl.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "23px",
@@ -299,6 +303,7 @@
     },
     "mlb": {
         "clientShortName": "MLB",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/mlb.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "23px",
@@ -374,6 +379,7 @@
     },
     "bamtech": {
         "clientShortName": "BAMTECH",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/bamtech.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "23px",
@@ -449,6 +455,7 @@
     },
     "pga": {
         "clientShortName": "PGA",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/pga.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "23px",
@@ -524,6 +531,7 @@
     },
     "tiger": {
         "clientShortName": "Tiger",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/tiger.png",
         "isSvg": "",
         "logoHeight": "",
