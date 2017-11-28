@@ -1,6 +1,7 @@
 {
     "eurosport": {
         "clientShortName": "Eurosport",
+        "heroVideo": "img/porfolioPages/heroVideos/Euro_hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/eurosport.svg",
         "isSvg": "hero__logo--svg",
@@ -77,6 +78,7 @@
     },
     "hbo": {
         "clientShortName": "HBO",
+        "heroVideo": "img/porfolioPages/heroVideos/HBO_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/hbo.png",
         "logoHeight": "20px",
@@ -152,6 +154,7 @@
     },
     "mysteriousDeep": {
         "clientShortName": "Mysterious Deep",
+        "heroVideo": "img/porfolioPages/heroVideos/Mysterious_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/mysterious-deep.png",
         "logoHeight": "20px",
@@ -227,6 +230,7 @@
     },
     "nhl": {
         "clientShortName": "NHL",
+        "heroVideo": "img/porfolioPages/heroVideos/NHL_hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/nhl.svg",
         "isSvg": "hero__logo--svg",
@@ -303,6 +307,7 @@
     },
     "mlb": {
         "clientShortName": "MLB",
+        "heroVideo": "img/porfolioPages/heroVideos/MLB_hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/mlb.svg",
         "isSvg": "hero__logo--svg",
@@ -379,6 +384,7 @@
     },
     "bamtech": {
         "clientShortName": "BAMTECH",
+        "heroVideo": "",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/bamtech.svg",
         "isSvg": "hero__logo--svg",
@@ -455,6 +461,7 @@
     },
     "pga": {
         "clientShortName": "PGA",
+        "heroVideo": "img/porfolioPages/heroVideos/PGA_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/pga.svg",
         "isSvg": "hero__logo--svg",
@@ -531,6 +538,7 @@
     },
     "tiger": {
         "clientShortName": "Tiger",
+        "heroVideo": "",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/tiger.png",
         "isSvg": "",
@@ -541,6 +549,83 @@
         "title": "The Tiger Woods Foundation",
         "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
         "clientOfficialName": "The Tiger Woods Foundation",
+        "role": "Lead Designer",
+        "detailSections": [{
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-splice",
+                "imageGroups": [
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ],
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ],
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-split",
+                "imageGroups": [
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ],
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ],
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "single",
+                "imageGroups": [
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ],
+                    [
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680",
+                        "https://source.unsplash.com/random/1200x680"
+                    ]
+                ]
+            }
+        ]
+    },
+    "grandPenguin": {
+        "clientShortName": "Grand Pengin",
+        "heroVideo": "img/porfolioPages/heroVideos/GP_Hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/eurosport.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "23px",
+        "logoWidth": "19px",
+        "largeLetter": "G",
+        "primaryColor": "#C10538",
+        "title": "Grand Penguin",
+        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+        "clientOfficialName": "Discovery Communnications",
         "role": "Lead Designer",
         "detailSections": [{
                 "title": "Understanding the fans",
