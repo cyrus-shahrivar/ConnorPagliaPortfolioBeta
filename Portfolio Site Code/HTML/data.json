@@ -18,20 +18,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -40,20 +64,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -62,15 +110,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -94,20 +171,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -116,20 +217,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -138,15 +263,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -170,20 +324,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -192,20 +370,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -214,15 +416,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -247,20 +478,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -269,20 +524,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -291,15 +570,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -324,20 +632,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -346,20 +678,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -368,15 +724,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -401,20 +786,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -423,20 +832,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -445,15 +878,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -478,20 +940,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -500,20 +986,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -522,15 +1032,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -555,20 +1094,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -577,20 +1140,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -599,15 +1186,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }
@@ -632,20 +1248,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-splice",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -654,20 +1294,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             },
@@ -676,15 +1340,44 @@
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
                 "imageGroups": [
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "video",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ],
-                    [
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680",
-                        "https://source.unsplash.com/random/1200x680"
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680"
+                        }
                     ]
                 ]
             }

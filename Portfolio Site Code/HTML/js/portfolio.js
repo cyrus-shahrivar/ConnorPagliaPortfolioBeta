@@ -26,6 +26,14 @@ $(document).ready(function () {
         }
     });
 
+    Handlebars.registerHelper('equals', function(item1, item2, options) {
+        if(item1 === item2) {
+            return options.fn(this);
+        } else {
+            return options.inverse(this);
+        }
+    });
+
     // Partial Registration
     var headerPartial = $('#header').html();
     Handlebars.registerPartial('header', headerPartial);

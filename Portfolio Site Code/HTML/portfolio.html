@@ -84,9 +84,16 @@
                         {{#each imageGroups}}
                         <div class="detail-section__image-group">
                             {{#each this}}
-                            <div class="detail-section__image-container">
-                                <figure class="detail-section__image" style="background-image: url({{this}});"></figure>
-                            </div>
+                                {{#equals this.assetType "image"}}
+                                    <div class="detail-section__image-container">
+                                        <figure class="detail-section__image" style="background-image: url({{this.url}});"></figure>
+                                    </div>
+                                {{/equals}}
+                                {{#equals this.assetType "video"}}
+                                    <div class="detail-section__image-container">
+                                        <video src="{{this.url}}" autoplay loop></video>
+                                    </div>
+                                {{/equals}}
                             {{/each}}
                         </div>
                         {{/each}}
