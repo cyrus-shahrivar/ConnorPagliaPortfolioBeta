@@ -80,18 +80,18 @@
                         <h1 class="detail-section__title">{{title}}</h1>
                         <p class="detail-section__blurb">{{blurb}}</p>
                     </div>
-                    <div class="detail-section__images--{{imageScheme}}">
+                    <div class="detail-section__images--{{imageScheme}} {{specialClass}}">
                         {{#each imageGroups}}
                         <div class="detail-section__image-group">
                             {{#each this}}
                                 {{#equals this.assetType "image"}}
-                                    <div class="detail-section__image-container">
-                                        <figure class="detail-section__image" style="background-image: url({{this.url}});"></figure>
+                                    <div class="detail-section__image-container {{this.specialContainerClass}}">
+                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" {{#if this.retinaLevel}}data-rjs="{{this.retinaLevel}}"{{/if}} />
                                     </div>
                                 {{/equals}}
                                 {{#equals this.assetType "video"}}
                                     <div class="detail-section__image-container">
-                                        <video src="{{this.url}}" autoplay loop></video>
+                                        <video src="{{this.url}}" autoplay loop muted></video>
                                     </div>
                                 {{/equals}}
                             {{/each}}
