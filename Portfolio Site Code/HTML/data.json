@@ -21,22 +21,25 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/Eurosport/Euro_Top.jpg",
+                            "url": "img/porfolioPages/Eurosport/Euro_Top@2x.png",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/Euro_Banner_image1.jpg",
+                            "url": "img/porfolioPages/Eurosport/Euro_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/Euro_Banner_image2.jpg",
+                            "url": "img/porfolioPages/Eurosport/Euro_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -52,22 +55,25 @@
                     [
                         {
                             "assetType": "video",
-                            "retinaLevel": "",
                             "url": "img/porfolioPages/Eurosport/euro_cd.mp4",
+                            "height": "",
+                            "width": "100%",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/EarlierTodayVOD.jpg",
+                            "url": "img/porfolioPages/Eurosport/EarlierTodayVOD@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/Passes.jpg",
+                            "url": "img/porfolioPages/Eurosport/Passes@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -82,10 +88,9 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/Eurosport/Devices.svg",
+                            "url": "img/porfolioPages/Eurosport/devices@2x.jpg",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         }
                     ]
                 ]
@@ -93,28 +98,26 @@
             {
                 "title": "",
                 "blurb": "",
+                "noDescription": "true",
                 "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
                     [
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/EuroMobile.jpg",
+                            "url": "img/porfolioPages/Eurosport/EuroMobile@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/HomeSalesScreen.jpg",
+                            "url": "img/porfolioPages/Eurosport/HomeSalesScreen@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "2",
-                            "url": "img/porfolioPages/Eurosport/VideoPlayerLive.jpg",
+                            "url": "img/porfolioPages/Eurosport/VideoPlayerLive@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }

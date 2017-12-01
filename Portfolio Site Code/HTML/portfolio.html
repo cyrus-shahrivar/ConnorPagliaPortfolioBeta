@@ -76,22 +76,24 @@
             <section class="detail-sections">
                 {{#each detailSections}}
                 <section class="detail-section detail-section--{{imageScheme}}">
+                    {{#unless noDescription}}
                     <div class="detail-section__description">
                         <h1 class="detail-section__title">{{title}}</h1>
                         <p class="detail-section__blurb">{{blurb}}</p>
                     </div>
+                    {{/unless}}
                     <div class="detail-section__images--{{imageScheme}} {{specialClass}}">
                         {{#each imageGroups}}
                         <div class="detail-section__image-group">
                             {{#each this}}
                                 {{#equals this.assetType "image"}}
                                     <div class="detail-section__image-container {{this.specialContainerClass}}">
-                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" {{#if this.retinaLevel}}data-rjs="{{this.retinaLevel}}"{{/if}} />
+                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" style"height: {{this.height}}; width: {{this.width}};"/>
                                     </div>
                                 {{/equals}}
                                 {{#equals this.assetType "video"}}
                                     <div class="detail-section__image-container">
-                                        <video src="{{this.url}}" autoplay loop muted></video>
+                                        <video src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" controls autoplay loop muted></video>
                                     </div>
                                 {{/equals}}
                             {{/each}}

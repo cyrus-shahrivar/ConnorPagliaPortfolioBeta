@@ -291,16 +291,17 @@ table {
 /* Images */
 
 .detail-section__images--one-two-splice .detail-section__image-container:first-child {
-    padding: 0 120px;
+    padding: 0 60px;
+    flex: 0 0 auto;
 }
 
 .detail-section__images--one-two-splice .detail-section__image:first-child {
-    max-width: 1280px;
-    max-height: 650px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto 80px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
 }
 
 .detail-section__images--one-two-splice .detail-section__image-container:nth-child(2n) {
@@ -331,28 +332,37 @@ table {
 }
 
 .detail-section__images--one-two-split .detail-section__image-container:nth-child(3n) {
-    max-width: 1280px;
-    max-height: 650px;
+    /* max-width: 1280px; */
+    /* max-height: 650px; */
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .detail-section--one-two-split {
-    padding: 0 120px;
+    padding: 0 60px;
 }
-
-
 
 .detail-section__images--one-two-split .detail-section__image-container:nth-child(2n) {
     float: left;
     width: 49%;
+    flex: 0 0 auto;
 }
 
 .detail-section__images--one-two-split .detail-section__image-container:nth-child(3n) {
     float: right;
     width: 49%;
+    flex: 0 0 auto;
+}
+
+.detail-section__images--one-two-split .detail-section__image-container:first-child .detail-section__image,
+.detail-section__images--one-two-split .detail-section__image-container:nth-child(2n) .detail-section__image,
+.detail-section__images--one-two-split .detail-section__image-container:nth-child(3n) .detail-section__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .detail-section__images--one-two-split .detail-section__image-group:nth-child(n+2) {
@@ -361,16 +371,21 @@ table {
 }
 
 .detail-section__images--single .detail-section__image-container {
-    padding: 0 120px;
+    padding: 0 60px;
+    flex: 0 0 auto;
+}
+
+.detail-section__image--80-margin-bottom-special {
+    margin-bottom: 80px !important;
 }
 
 .detail-section__images--single .detail-section__image {
-    max-width: 1280px;
-    max-height: 650px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto 80px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .detail-section__images--single .detail-section__image-group:nth-child(n+2) {
@@ -383,7 +398,7 @@ table {
 }
 
 .detail-section__image {
-    min-height: 400px;
+    min-height: 100px;
 }
 
 /* End of Images */
