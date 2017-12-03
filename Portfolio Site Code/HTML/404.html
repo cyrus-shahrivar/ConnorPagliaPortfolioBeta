@@ -41,8 +41,11 @@
         <link href="css/owl.carousel.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/preloader.css" />
 
-        <link href="style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/preloader.css" rel="stylesheet">
+        <link href="css/indexHeader.css" rel="stylesheet">
+        
 
         <script src="js/modernizr.custom.js"></script>
 
@@ -57,7 +60,34 @@
 
 	<body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
-
+<header class="header">
+        <div class="header__logo">
+            <a href="/index.html?portfolioPageReturn=true&scrollTo=intro"></a>
+             <img alt="thumbnail" class="header__logo" src="img/cp_header_logo@2x.png">    
+        </div>
+        <i class="fa fa-bars header__open-button" aria-hidden="true"></i>
+        <nav class="header__nav-bar">
+            <ul class="header__nav-list nav">
+                <li><a data-scroll href="#intro">Home</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="header__nav-bar header__nav-bar--mobile">
+            <div class="header__background-mask"></div>
+            <div class="header__logo">
+                <a href="/index.html?portfolioPageReturn=true&scrollTo=intro"></a>
+             </div>
+            <div class="header__close-button">&#10005;</div>
+            <ul>
+                <li><a data-scroll href="#intro">Home</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
         <!--preloader-->
         <div class="ip-header">
             <div class="ip-logo">
@@ -81,17 +111,15 @@
             <div class="black-overlay"></div>
             <div class="container valign">
                 <div class="row">
-                    <div class="col-md-12">
-                        <img src="img/logoWhite.png" class="img-responsive center-block introLogo" alt="Intro Logo">
-                    </div>
+                    
                     <div class="col-md-12 text-center">
-                        <h1>404 Error! </h1>
-                        <h5 style="color:white">The page you are looking for doesn't exist.</h5>
+                        <h3>Oops. </h3>
+                        <h4 style="color:white">404 Error - This Page Doesn't Exist</h4>
                     </div>
 
 
                     <div class="col-md-6 col-md-offset-3 text-center">
-                        <a class="btn btn-default btn-white" href="index.html">Go Back!</a>
+                        <a class="btn btn-default btn-white" href="index.html">Go Back</a>
                     </div>
 
                 </div>
@@ -103,33 +131,50 @@
 
 
 
-        <section id="footer" class="dark">
-            <div class="topLine text-center">
-                <img src="img/logoWhite.png" class="footerLogo center-block" alt="Small Logo" width="100" height="134">
-            </div>
+         <section id="footer" class="dark">
+        <div class="bottomLine text-center">
+            <ul class="footerSocialIcons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
+            </ul>
+            <h5>© CP Design 2017.</h5>
+            
+        </div>
+    </section>
 
-            <div class="bottomLine text-center">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/handlebars-v4.0.10.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/googleMapInit.js"></script>
+    <script>
+        $.backstretch('img/404_background.jpg');
+    </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        // Changing the defaults
+        window.sr = ScrollReveal({
+            reset: true
+        });
 
-                <ul class="footerSocialIcons">
-                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li>
-                </ul>
-                <p class="bold">All Rights Reserved. </p> <p>Premium Template by artBreeze Studios.</p>
-            </div>
-        </section>
-
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-        <script src="js/preloader.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src="js/overlay.js"></script> <!-- edit to add/remove oeverlay -->
-        <script src="js/custom.js"></script>
-
-        <script>
-            $.backstretch('img/background1.jpg');
-        </script>
+        // Customizing a reveal set
+        sr.reveal('.client-header-reveal', {
+            duration: 2000,
+            origin: 'left',
+            distance: '50px',
+            scale: 1
+        })
+        sr.reveal('.client-reveal', {
+            duration: 1200,
+            origin: 'left',
+            distance: '10px'
+        }, 150);
+    </script>
+    <script src="js/header.js"></script>
 
 
 
