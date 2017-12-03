@@ -1,7 +1,7 @@
 {
     "hbo": {
         "clientShortName": "HBO",
-        "heroVideo": "img/porfolioPages/heroVideos/HBO_Hero.mp4",
+        "heroVideo": "img/portfolioPages/heroVideos/HBO_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/hbo.png",
         "logoHeight": "20px",
@@ -20,7 +20,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/HBO_Top@2x.jpg",
+                            "url": "img/portfolioPages/HBO/HBO_Top@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -28,7 +28,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/HBO_Banner_image1@2x.jpg",
+                            "url": "img/portfolioPages/HBO/HBO_Banner_image1@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -36,7 +36,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/HBO_Banner_image2@2x.jpg",
+                            "url": "img/portfolioPages/HBO/HBO_Banner_image2@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -54,7 +54,7 @@
                     [
                         {
                             "assetType": "video",
-                            "url": "img/porfolioPages/HBO/hbo_web.mp4",
+                            "url": "img/portfolioPages/HBO/hbo_web.mp4",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",
@@ -62,7 +62,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/hbo_desktop_comp.jpg",
+                            "url": "img/portfolioPages/HBO/hbo_desktop_comp.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -70,7 +70,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/HBO_Web1@2x.jpg",
+                            "url": "img/portfolioPages/HBO/HBO_Web1@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -78,7 +78,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/HBO/HBO_Web2@2x.jpg",
+                            "url": "img/portfolioPages/HBO/HBO_Web2@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "detail-section__image-container--40-margin-top-float-right-special",
@@ -95,7 +95,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "video",
-                            "url": "img/porfolioPages/HBO/hbo_interaction.mp4",
+                            "url": "img/portfolioPages/HBO/hbo_interaction.mp4",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",
@@ -103,7 +103,7 @@
                         },
                         {
                             "assetType": "video",
-                            "url": "img/porfolioPages/HBO/hbo_cd.mp4",
+                            "url": "img/portfolioPages/HBO/hbo_cd.mp4",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",

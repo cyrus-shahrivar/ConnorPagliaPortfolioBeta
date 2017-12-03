@@ -1,7 +1,7 @@
 {
     "mlb": {
         "clientShortName": "MLB",
-        "heroVideo": "img/porfolioPages/heroVideos/MLB_hero.mp4",
+        "heroVideo": "img/portfolioPages/heroVideos/MLB_hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/mlb.svg",
         "isSvg": "hero__logo--svg",
@@ -21,7 +21,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/MLB_Top@2x.jpg",
+                            "url": "img/portfolioPages/MLB/MLB_Top@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -29,7 +29,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/MLB_Banner_image1@2x.jpg",
+                            "url": "img/portfolioPages/MLB/MLB_Banner_image1@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -37,7 +37,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/MLB_Banner_image2@2x.jpg",
+                            "url": "img/portfolioPages/MLB/MLB_Banner_image2@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -57,7 +57,7 @@
                         {
                             "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
                             "height": "0",
                             "width": "0",
                             "specialContainerClass": "",
@@ -65,7 +65,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -73,7 +73,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Commissioner Letter Copy@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Commissioner Letter Copy@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -93,7 +93,7 @@
                         {
                             "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
                             "height": "0",
                             "width": "0",
                             "specialContainerClass": "detail-section__image-container--30-padding-bottom-special",
@@ -101,7 +101,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Map Area Data@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Map Area Data@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -109,7 +109,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Map Closed Nav@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Map Closed Nav@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -126,7 +126,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "video",
-                            "url": "img/porfolioPages/MLB/Pitchsmart.mp4",
+                            "url": "img/portfolioPages/MLB/Pitchsmart.mp4",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",
@@ -145,7 +145,7 @@
                     [
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/Pitchsmart_mobile@2x.jpg",
+                            "url": "img/portfolioPages/MLB/Pitchsmart_mobile@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -153,7 +153,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/PitchSmart_Home@2x.jpg",
+                            "url": "img/portfolioPages/MLB/PitchSmart_Home@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -161,7 +161,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/porfolioPages/MLB/PitchSmart_Home_Wire_V2@2x.jpg",
+                            "url": "img/portfolioPages/MLB/PitchSmart_Home_Wire_V2@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
