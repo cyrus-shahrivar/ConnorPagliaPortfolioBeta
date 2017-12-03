@@ -1,7 +1,7 @@
 {
     "grandPenguin": {
         "clientShortName": "Grand Pengin",
-        "heroVideo": "img/porfolioPages/heroVideos/GP_Hero.mp4",
+        "heroVideo": "img/portfolioPages/heroVideos/GP_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/eurosport.svg",
         "isSvg": "hero__logo--svg",
@@ -20,141 +20,26 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/grandPenguin_website.png",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/GrandPenguin/GP_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ]
-                ]
-            },
-            {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
-                "imageScheme": "one-two-split",
-                "specialClass": "",
-                "imageGroups": [
-                    [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/GrandPenguin/GP_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -168,67 +53,18 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/GP_packagedesign@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/GrandPenguin/GP_productshot@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
