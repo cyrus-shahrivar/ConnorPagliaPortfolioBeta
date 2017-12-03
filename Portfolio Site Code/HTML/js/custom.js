@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     "use strict";
 
@@ -8,11 +8,13 @@ $(document).ready(function () {
 
     function introHeight() {
         var wh = $(window).height();
-        $('#intro').css({height: wh});
+        $('#intro').css({
+            height: wh
+        });
     }
 
     introHeight();
-    $(window).bind('resize',function () {
+    $(window).bind('resize', function() {
         //Update slider height on resize
         introHeight();
     });
@@ -22,23 +24,23 @@ $(document).ready(function () {
     /* contact form init  */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    $('#contactform').submit(function(){
+    $('#contactform').submit(function() {
         var action = $(this).attr('action');
-        $("#result").slideUp(300,function() {
+        $("#result").slideUp(300, function() {
             $('#result').hide();
             $('#submit')
-                .attr('disabled','disabled');
+                .attr('disabled', 'disabled');
             $.post(action, {
                     name: $('#name').val(),
                     email: $('#email').val(),
                     phone: $('#phone').val(),
                     comments: $('#comments').val(),
                 },
-                function(data){
+                function(data) {
                     document.getElementById('result').innerHTML = data;
                     $('#result').slideDown('slow');
                     $('#submit').removeAttr('disabled');
-                    if(data.match('success') != null) $('#contactform').slideUp('slow');
+                    if (data.match('success') != null) $('#contactform').slideUp('slow');
                 }
             );
 
@@ -67,7 +69,7 @@ $(document).ready(function () {
     /* Parallax init  */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $(function() {
             $('.captionWrapper.valign').css({
                 top: '120px'
@@ -79,12 +81,11 @@ $(document).ready(function () {
         });
 
 
-    }
-    else{
+    } else {
         $(window).stellar({
             responsive: true,
             horizontalOffset: 0,
-            horizontalScrolling:false
+            horizontalScrolling: false
         });
     }
 
@@ -97,16 +98,18 @@ $(document).ready(function () {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Isotope */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    var $container = $('.gallery').imagesLoaded( function() {
+    var $container = $('.gallery').imagesLoaded(function() {
         $container.isotope({
             // options
         });
     });
 
 
-    $('#filters').on( 'click', 'button', function() {
+    $('#filters').on('click', 'button', function() {
         var filterValue = $(this).attr('data-filter');
-        $container.isotope({ filter: filterValue });
+        $container.isotope({
+            filter: filterValue
+        });
     });
 
     $container.isotope({
@@ -115,10 +118,10 @@ $(document).ready(function () {
 
 
     //    masonry 3 columns
-    $( function() {
+    $(function() {
         var $container2 = $('.blogPostsWrapper');
         // initialize Masonry after all images have loaded
-        $container2.imagesLoaded(function () {
+        $container2.imagesLoaded(function() {
             $container2.isotope({
                 itemSelector: '.blogPost',
                 masonry: {
@@ -130,10 +133,10 @@ $(document).ready(function () {
 
 
     //    masonry 2 columns
-    $( function() {
+    $(function() {
         var $container3 = $('.blogPostsWrapper2');
         // initialize Masonry after all images have loaded
-        $container3.imagesLoaded(function () {
+        $container3.imagesLoaded(function() {
             $container3.isotope({
                 itemSelector: '.blogPost2',
                 masonry: {
@@ -143,55 +146,27 @@ $(document).ready(function () {
         });
     });
 
-
-
-
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    /* overlay portfolio */
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    $("a.overlay-ajax").click(function(){
-        var url = $(this).attr("href");
-        $(".overlay-section").load(url + ' #transmitter');
-        $('.overlay-close img').tooltip();
-        return false;
-    });
-
-
-    //    no scroll on body when overlay is up
-    $(function () {
-
-        $('a.overlay-ajax').click(function(){
-            $( "body" ).addClass( "noscroll" );
-        });
-
-        $('a.overlay-close').click(function(){
-            $( "body" ).removeClass( "noscroll" );
-        });
-    });
-
-
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* smoothscroll */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    smoothScroll.init({
-        speed: 1000
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+        offset: 50, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        before: function() {
+            // console.log('in smooth scroll before callback');
+        }, // Callback to run before scroll
+        after: function() {
+            // console.log('in smooth scroll after callback');
+        } // Callback to run after scroll
     });
-
-
-
-
-
-
 
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* scrollreveal */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         // some code..
-    }
-
-    else{
+    } else {
         window.scrollReveal = new scrollReveal();
     }
 
@@ -200,8 +175,8 @@ $(document).ready(function () {
     /* owl-carousels */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     $("#owl-team").owlCarousel({
-        singleItem:	true,
-        autoPlay:	true,
+        singleItem: true,
+        autoPlay: true,
         navigation: true,
         navigationText: [
             "<i class='fa fa-angle-left fa-4x'></i>",
@@ -212,27 +187,27 @@ $(document).ready(function () {
 
 
     $("#owl-clients").owlCarousel({
-        items:3,
+        items: 3,
         navigation: false,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1]
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [980, 2],
+        itemsTablet: [768, 2],
+        itemsMobile: [479, 1]
     });
 
 
     $("#owl-testimonials").owlCarousel({
-        singleItem:	true,
-        autoPlay:	true
+        singleItem: true,
+        autoPlay: true
     });
 
 
     $("#owl-featured").owlCarousel({
-        items:3,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [980,2],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1],
+        items: 3,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [980, 2],
+        itemsTablet: [768, 2],
+        itemsMobile: [479, 1],
         navigation: true,
         navigationText: [
             "<i class='fa fa-angle-left fa-2x featuredNav'></i>",
@@ -241,7 +216,7 @@ $(document).ready(function () {
     });
 
     $("#owl-blog-single").owlCarousel({
-        singleItem:	true,
+        singleItem: true,
         navigation: true,
         navigationText: [
             "<i class='fa fa-angle-left fa-2x blogNav'></i>",
@@ -268,8 +243,8 @@ $(document).ready(function () {
         // second timer
         $('.timer2').countTo({
 
-            from: 0,// the number you want to start
-            to: 2,// the number you want to reach
+            from: 0, // the number you want to start
+            to: 2, // the number you want to reach
             speed: 500,
             refreshInterval: 50
 
@@ -279,8 +254,8 @@ $(document).ready(function () {
         // third timer
         $('.timer3').countTo({
 
-            from: 0,// the number you want to start
-            to: 12,// the number you want to reach
+            from: 0, // the number you want to start
+            to: 12, // the number you want to reach
             speed: 500,
             refreshInterval: 10
         });
@@ -289,8 +264,8 @@ $(document).ready(function () {
         // fourth timer
         $('.timer4').countTo({
 
-            from: 0,// the number you want to start
-            to: 7,// the number you want to reach
+            from: 0, // the number you want to start
+            to: 7, // the number you want to reach
             speed: 500,
             refreshInterval: 10,
 
@@ -298,8 +273,74 @@ $(document).ready(function () {
         });
 
 
-    }, { offset: 500 });
+    }, {
+        offset: 500
+    });
 
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Portfolio Page Back Flow Scrolling
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+    var searchObject = {};
+    var searchQuery = window.location.search.split('&');
+    searchQuery.forEach(function (queryParamPair) {
+        var pair = queryParamPair;
+        if (queryParamPair.includes('?')) {
+            pair = pair.split('?')[1];
+        }
+
+        var key = pair.split('=')[0];
+        var value = pair.split('=')[1];
+        searchObject[key] = value;
+    })
+
+    var isReturnFromClientsPage = searchObject.portfolioPageReturn;
+    if (isReturnFromClientsPage) {
+        var scrollTo = searchObject.scrollTo;
+        var elementToScrollTo = document.getElementById(scrollTo);
+        var elementToScrollToScrollPosition = elementToScrollTo.offsetTop;
+
+        $(window).scrollTop(elementToScrollToScrollPosition - 65);
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Header Animation
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    $(window).scroll(function () {
+        var $header = $('header');
+        var $openButton = $('.header__open-button');
+        var $closeButton = $('.header__close-button');
+        var $mobileLogo = $('.header__nav-bar--mobile .header__logo');
+        if ($(this).scrollTop() > 50) {
+            $header.addClass('header-transition');
+            $openButton.addClass('mobile-toggle-transition');
+            $closeButton.addClass('mobile-toggle-transition');
+            $mobileLogo.addClass('mobile-toggle-transition');
+        } else {
+            $header.removeClass('header-transition');
+            $openButton.removeClass('mobile-toggle-transition');
+            $closeButton.removeClass('mobile-toggle-transition');
+            $mobileLogo.removeClass('mobile-toggle-transition');
+        }
+    });
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Client Logos
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    $(window).on('resize', function () {
+        if (window.innerWidth < 768) {
+            $('.client-logos-container .clientLogo').removeClass('col--2').addClass('col--4');
+        } else {
+            $('.client-logos-container .clientLogo').removeClass('col--4').addClass('col--2');
+        }
+    });
+
+    if (window.innerWidth < 768) {
+        $('.client-logos-container .clientLogo').removeClass('col--2').addClass('col--4');
+    } else {
+        $('.client-logos-container .clientLogo').removeClass('col--4').addClass('col--2');
+    }
 
 });

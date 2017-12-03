@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connor Paglia - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400,700,800" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/handlebars-v4.0.10.js"></script>
+    <script id="header" type="text/x-handlebars-template">
+        <header class="header">
+            <div class="header__logo">
+                <a href="/index.html?portfolioPageReturn=true&scrollTo=intro">CP</a>
+            </div>
+            <i class="fa fa-bars header__open-button" aria-hidden="true"></i>
+            <nav class="header__nav-bar">
+                <ul>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=intro">HOME</a></li>
+                    <li><a class="active" href="/index.html?portfolioPageReturn=true&scrollTo=portfolio">PORTFOLIO</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=about">ABOUT</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <nav class="header__nav-bar header__nav-bar--mobile">
+                <div class="header__background-mask"></div>
+                <div class="header__logo">
+                    <a href="/index.html?portfolioPageReturn=true&scrollTo=intro">CP</a>
+                </div>
+                <div class="header__close-button">&#10005;</div>
+                <ul>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=intro">Home</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=portfolio">Portfolio</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=about">About</a></li>
+                    <li><a href="/index.html?portfolioPageReturn=true&scrollTo=contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </script>
+    <script id="hero" type="text/x-handlebars-template">
+        <section id="hero-section" class="hero">
+            <section class="hero__description">
+                <div class="hero__large-letter">{{largeLetter}}</div>
+                <div class="hero__logo {{#if isSvg}}{{isSvg}}{{/if}}" style="background-image: url({{logo}}); height: {{logoHeight}}; width: {{logoWidth}};">
+                </div>
+                <hr class="hero__divider">
+                <h1 class="hero__title">{{title}}</h1>
+                <h2 class="hero__subtitle">{{subtitle}}</h2>
+                <div class="hero__details">
+                    <div class="hero__client">
+                        <h3 class="hero__client-title">Client</h3>
+                        <p class="hero__client-description">{{clientOfficialName}}</p>
+                    </div>
+                    <div class="hero__role">
+                        <h3 class="hero__role-title">Role</h3>
+                        <p class="hero__role-description">{{role}}</p>
+                    </div>
+                </div>
+            </section>
+            <video class="hero__video" src="{{heroVideo}}" autoplay loop muted></video>
+            <section class="hero__mask" style="background-color: {{primaryColor}}"></section>
+        </section>
+    </script>
+    <script id="content" type="text/x-handlebars-template">
+        <section class="main-content">
+            <section class="detail-sections">
+                {{#each detailSections}}
+                <section class="detail-section detail-section--{{imageScheme}}">
+                    {{#unless noDescription}}
+                    <div class="detail-section__description">
+                        <h1 class="detail-section__title">{{title}}</h1>
+                        <p class="detail-section__blurb">{{blurb}}</p>
+                    </div>
+                    {{/unless}}
+                    <div class="detail-section__images--{{imageScheme}} {{specialClass}}">
+                        {{#each imageGroups}}
+                        <div class="detail-section__image-group">
+                            {{#each this}}
+                                {{#equals this.assetType "image"}}
+                                    <div class="detail-section__image-container {{this.specialContainerClass}}">
+                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" style="{{#if this.height}}height: {{this.height}};{{/if}} {{#if this.width}}width: {{this.width}};{{/if}}"/>
+                                    </div>
+                                {{/equals}}
+                                {{#equals this.assetType "video"}}
+                                    <div class="detail-section__image-container">
+                                        <video class="{{this.specialAssetClass}}" src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" autoplay loop muted></video>
+                                    </div>
+                                {{/equals}}
+                            {{/each}}
+                        </div>
+                        {{/each}}
+                    </div>
+                </section>
+                {{/each}}
+            </section>
+        </section>
+    </script>
+    <script id="footer" type="text/x-handlebars-template">
+        <section class="more-work">
+            <a class="more-work__title" href="/index.html?portfolioPageReturn=true&scrollTo=portfolio">&#10229; MORE WORK</a>
+        </section>
+        <footer class="footer">
+            <div class="footer__up-arrow"></div>
+            <div class="footer__social-links">
+                <ul class="footer__social-links-list">
+                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__copyright"><span class="footer__legal-bold">All Rights Reserved.</span> CP Design 2017.</div>
+        </footer>
+    </script>
+    <script id="main" type="text/x-handlebars-template">
+        {{> header}}
+        <main>
+            {{> hero}} {{> content}}
+        </main>
+        {{> footer}}
+    </script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
