@@ -42,7 +42,7 @@ $(document).ready(function () {
     // Get Correct Data
     var clientName = window.location.search.split('name=')[1];
 
-    $.getJSON('data.json').done(function(data) {
+    $.getJSON('/data/' + clientName + '.json').done(function(data) {
         var compiledHtml = compiledTemplate(data[clientName]);
         var $body = $('body');
         $body.append(compiledHtml);

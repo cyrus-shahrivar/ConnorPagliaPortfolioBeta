@@ -1,0 +1,240 @@
+{
+    "mlb": {
+        "clientShortName": "MLB",
+        "heroVideo": "img/porfolioPages/heroVideos/MLB_hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/mlb.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "23px",
+        "logoWidth": "47px",
+        "largeLetter": "M",
+        "primaryColor": "#1616DA",
+        "title": "MLB",
+        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+        "clientOfficialName": "MLB",
+        "role": "Lead Designer",
+        "detailSections": [{
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "video",
+                            "retinaLevel": "",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "retinaLevel": "",
+                            "assetType": "image",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "video",
+                            "retinaLevel": "",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "video",
+                            "retinaLevel": "",
+                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ],
+                    [{
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "retinaLevel": "",
+                            "url": "https://source.unsplash.com/random/1200x680",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
