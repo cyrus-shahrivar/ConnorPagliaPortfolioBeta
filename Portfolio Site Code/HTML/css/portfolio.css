@@ -192,7 +192,6 @@ table {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    top: 0;
     left: 0;
     right: 0;
 }
@@ -245,6 +244,7 @@ table {
 	letter-spacing: 1.4px;
     color: #ffffff;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .hero__client-description, .hero__role-description {
@@ -642,6 +642,71 @@ table {
     }
 }
 
+@media (max-width: 550px) {
+    .header {
+        padding: 45px 25px 10px 25px;
+    }
+
+    .header__open-button,
+    .header__close-button {
+        right: 25px;
+    }
+
+    .header__nav-bar--mobile .header__logo {
+        left: 25px;
+    }
+
+    .hero__description {
+        padding: 25px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .hero__client {
+        margin-right: 40px;
+    }
+
+    .hero__large-letter {
+        font-size: 350px;
+    }
+
+    .detail-section--one-two-splice .detail-section__description,
+    .detail-section--single .detail-section__description {
+        margin: 0 25px;
+    }
+
+    .detail-section__images--one-two-splice .detail-section__image-container:first-child, .detail-section__images--single .detail-section__image-container, .detail-section--one-two-split {
+        padding: 0 25px;
+    }
+
+    .detail-section__title {
+        font-size: 24px;
+        line-height: 1.33;
+        margin-bottom: 19px;
+        padding-top: 50px;
+    }
+
+    .detail-section__blurb {
+        font-size: 15px;
+        line-height: 1.73;
+        margin-bottom: 50px;
+    }
+
+    .detail-section__images--one-two-splice .detail-section__image:first-child {
+        margin-bottom: 40px;
+    }
+
+    .detail-section__images--one-two-splice .detail-section__image-container:nth-child(3n) .detail-section__image {
+        margin-bottom: 40px;
+    }
+
+    .detail-section__images--one-two-split .detail-section__image-container:first-child {
+        padding-bottom: 40px;
+    }
+}
+
 /* Special Classes */
 
 .detail-section__image--80-margin-bottom-special {
@@ -667,4 +732,10 @@ table {
 
 .detail-section__image-container--0-padding-bottom-special {
     padding-bottom: 0 !important;
+}
+
+@media (max-width: 550px) {
+    .detail-section__image--80-margin-bottom-special {
+        margin-bottom: 40px !important;
+    }
 }
