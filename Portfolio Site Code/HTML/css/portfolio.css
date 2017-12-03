@@ -664,3 +664,7 @@ table {
 .detail-section__image-container--30-padding-bottom-special {
     padding-bottom: 30px !important;
 }
+
+.detail-section__image-container--0-padding-bottom-special {
+    padding-bottom: 0 !important;
+}

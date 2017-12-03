@@ -1,7 +1,7 @@
 {
     "pga": {
         "clientShortName": "PGA",
-        "heroVideo": "img/porfolioPages/heroVideos/PGA_Hero.mp4",
+        "heroVideo": "img/portfolioPages/heroVideos/PGA_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/pga.svg",
         "isSvg": "hero__logo--svg",
@@ -20,67 +20,55 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/PGA/PGA_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         }
-                    ],
-                    [{
+                    ]
+                ]
+            },
+            {
+                "title": "",
+                "blurb": "",
+                "noDescription": "true",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_laptop@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_Styleguide-2@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/Desktop_1@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -93,70 +81,31 @@
                 "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                    [
+                        {
+                            "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
+                            "height": "0",
+                            "width": "0",
+                            "specialContainerClass": "detail-section__image-container--0-padding-bottom-special",
+                            "specialAssetClass": "detail-section__image--hide detail-section__image--0-min-height-override"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/PGA/PGA_SellPage@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_V2.2_SellPage@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         }
                     ]
                 ]
@@ -165,70 +114,15 @@
                 "title": "Understanding the fans",
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "single",
+                "noDescription": "true",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
+                    [
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/PGA/PGA_Android@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
