@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
@@ -28,7 +28,7 @@
 		};
 
 		// disable scrolling
-		window.addEventListener( 'scroll', noscroll );
+		// window.addEventListener( 'scroll', noscroll );
 
 		// initial animation
 		classie.add( container, 'loading' );
@@ -46,7 +46,7 @@
 		var simulationFn = function(instance) {
 			var progress = 0,
 				interval = setInterval( function() {
-					progress = Math.min( progress + Math.random() * 0.1, 1 );
+					progress = Math.min( progress + Math.random() * 0.5, 1 );
 
 					instance.setProgress( progress );
 
@@ -78,7 +78,7 @@
 
 		loader.setProgressFn( simulationFn );
 	}
-	
+
 	function noscroll() {
 		window.scrollTo( 0, 0 );
 	}

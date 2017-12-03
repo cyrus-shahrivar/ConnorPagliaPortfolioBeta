@@ -1,0 +1,99 @@
+{
+    "mysteriousDeep": {
+        "clientShortName": "Mysterious Deep",
+        "heroVideo": "img/portfolioPages/heroVideos/Mysterious_Hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/mysterious-deep.png",
+        "logoHeight": "20px",
+        "logoWidth": "20px",
+        "largeLetter": "M",
+        "primaryColor": "#036658",
+        "title": "Mysterious Deep",
+        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+        "clientOfficialName": "Mysterious Deep",
+        "role": "Lead Designer",
+        "detailSections": [{
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Mysterious-Apps@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Mysterious_print@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Anglerfish@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/VampireSquid@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/AnglerCover@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    }
+                ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "nhl": {
+        "clientShortName": "NHL",
+        "heroVideo": "img/portfolioPages/heroVideos/NHL_hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/nhl.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "23px",
+        "logoWidth": "20px",
+        "largeLetter": "N",
+        "primaryColor": "#3A3B3E",
+        "title": "NHL",
+        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+        "clientOfficialName": "NHL",
+        "role": "Lead Designer",
+        "detailSections": [{
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_1.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                    },
+                    {
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_2.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    }
+                    ]
+                ]
+            }
+        ]
+    }
+}
