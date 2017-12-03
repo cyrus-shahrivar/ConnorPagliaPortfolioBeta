@@ -1,7 +1,7 @@
 {
     "nhl": {
         "clientShortName": "NHL",
-        "heroVideo": "img/porfolioPages/heroVideos/NHL_hero.mp4",
+        "heroVideo": "img/portfolioPages/heroVideos/NHL_hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/nhl.svg",
         "isSvg": "hero__logo--svg",
@@ -20,141 +20,26 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ]
-                ]
-            },
-            {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
-                "imageScheme": "one-two-split",
-                "specialClass": "",
-                "imageGroups": [
-                    [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -168,70 +53,21 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_1.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                    },
+                    {
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_2.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    }
                     ]
                 ]
             }
