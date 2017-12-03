@@ -20,67 +20,26 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/porfolioPages/MLB/MLB_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/MLB_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "retinaLevel": "",
-                            "assetType": "image",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/MLB_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -91,70 +50,68 @@
                 "title": "Understanding the fans",
                 "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
                 "imageScheme": "one-two-split",
+                "noDescription": "true",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                    [
+                        {
+                            "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
+                            "assetType": "image",
+                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "height": "0",
+                            "width": "0",
+                            "specialContainerClass": "",
+                            "specialAssetClass": "detail-section__image--hide detail-section__image--0-min-height-override"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/Commissioner Letter Copy@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
-                    ],
-                    [{
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-split",
+                "noDescription": "true",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/Landing@2x.jpg",
+                            "height": "0",
+                            "width": "0",
+                            "specialContainerClass": "detail-section__image-container--30-padding-bottom-special",
+                            "specialAssetClass": "detail-section__image--hide detail-section__image--0-min-height-override"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/porfolioPages/MLB/Map Area Data@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/Map Closed Nav@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -169,66 +126,44 @@
                 "imageGroups": [
                     [{
                             "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "url": "img/porfolioPages/MLB/Pitchsmart.mp4",
+                            "height": "",
+                            "width": "100%",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         }
-                    ],
-                    [{
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-split",
+                "noDescription": "true",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/Pitchsmart_mobile@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/PitchSmart_Home@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/MLB/PitchSmart_Home_Wire_V2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }

@@ -88,12 +88,12 @@
                             {{#each this}}
                                 {{#equals this.assetType "image"}}
                                     <div class="detail-section__image-container {{this.specialContainerClass}}">
-                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" style"height: {{this.height}}; width: {{this.width}};"/>
+                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" style="{{#if this.height}}height: {{this.height}};{{/if}} {{#if this.width}}width: {{this.width}};{{/if}}"/>
                                     </div>
                                 {{/equals}}
                                 {{#equals this.assetType "video"}}
                                     <div class="detail-section__image-container">
-                                        <video src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" autoplay loop muted></video>
+                                        <video class="{{this.specialAssetClass}}" src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" autoplay loop muted></video>
                                     </div>
                                 {{/equals}}
                             {{/each}}

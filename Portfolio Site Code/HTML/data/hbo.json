@@ -19,67 +19,26 @@
                 "specialClass": "",
                 "imageGroups": [
                     [{
-                            "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "assetType": "image",
+                            "url": "img/porfolioPages/HBO/HBO_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/HBO/HBO_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/HBO/HBO_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -92,69 +51,37 @@
                 "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
+                    [
+                        {
                             "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "url": "img/porfolioPages/HBO/hbo_web.mp4",
+                            "height": "",
+                            "width": "100%",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/HBO/hbo_desktop_comp.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "url": "img/porfolioPages/HBO/HBO_Web1@2x.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
                         {
                             "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
+                            "url": "img/porfolioPages/HBO/HBO_Web2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "detail-section__image-container--40-margin-top-float-right-special",
                             "specialAssetClass": ""
                         }
                     ]
@@ -168,66 +95,17 @@
                 "imageGroups": [
                     [{
                             "assetType": "video",
-                            "retinaLevel": "",
-                            "url": "img/porfolioPages/heroVideos/Euro_hero.mp4",
+                            "url": "img/porfolioPages/HBO/hbo_interaction.mp4",
+                            "height": "",
+                            "width": "100%",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         },
                         {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        }
-                    ],
-                    [{
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
-                        {
-                            "assetType": "image",
-                            "retinaLevel": "",
-                            "url": "https://source.unsplash.com/random/1200x680",
+                            "assetType": "video",
+                            "url": "img/porfolioPages/HBO/hbo_cd.mp4",
+                            "height": "",
+                            "width": "100%",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
