@@ -52,11 +52,12 @@
         <![endif]-->
 </head>
 
-<body id="bigWrapper" data-spy="scroll" data-target=".header__nav-bar" data-offset="100">
+<body id="bigWrapper" data-spy="scroll" data-target="header" data-offset="100">
     <header class="header">
         <div class="header__logo">
-            <a href="/index.html?portfolioPageReturn=true&scrollTo=intro"></a>
-             <img alt="thumbnail" class="header__logo" src="img/cp_header_logo@2x.png">    
+            <a data-scroll href="#intro">
+                <img alt="thumbnail" class="header__logo" src="img/cp_header_logo@2x.png">
+            </a>
         </div>
         <i class="fa fa-bars header__open-button" aria-hidden="true"></i>
         <nav class="header__nav-bar">
@@ -70,7 +71,7 @@
         <nav class="header__nav-bar header__nav-bar--mobile">
             <div class="header__background-mask"></div>
             <div class="header__logo">
-                <a href="/index.html?portfolioPageReturn=true&scrollTo=intro"></a>
+                <a data-scroll href="#intro"></a>
              </div>
             <div class="header__close-button">&#10005;</div>
             <ul>
@@ -112,7 +113,7 @@
                 <div class="col-md-12">
                     <img src="img/logoBlack@2x.png" class="img-responsive center-block introLogo" alt="Intro Logo">
                 </div>
-               
+
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <p>
                         Digital  &nbsp; I  &nbsp; Web &nbsp;  I &nbsp; Brand &nbsp;  I &nbsp;  Product Designer
@@ -431,7 +432,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12" data-scroll-reveal="enter left move over 1s after 0.2s">
                     <p class="bold">Dont hesitate to send a message.</p>
-                   
+
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
                             <ul class="infoContact">

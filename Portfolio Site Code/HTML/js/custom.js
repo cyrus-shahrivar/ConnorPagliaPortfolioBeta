@@ -294,7 +294,7 @@ $(document).ready(function() {
         searchObject[key] = value;
     })
 
-    var isReturnFromClientsPage = searchObject.portfolioPageReturn;
+    var isReturnFromClientsPage = searchObject.notHomeReturn;
     if (isReturnFromClientsPage) {
         var scrollTo = searchObject.scrollTo;
         var elementToScrollTo = document.getElementById(scrollTo);
