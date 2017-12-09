@@ -14,8 +14,8 @@
         "clientOfficialName": "Discovery Communnications",
         "role": "Lead Designer",
         "detailSections": [{
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "A global experience",
+                "blurb": "Eurosport's catelog consisted of over 300 sports and activities, presenting many complex UX challenges. With all of this content, support for over 20 languages was also required. Simplifying IA as well as simple navigationa and iconography helped users find and watch their favorite content.",
                 "imageScheme": "one-two-splice",
                 "specialClass": "",
                 "imageGroups": [
@@ -47,8 +47,8 @@
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "Extending the reach",
+                "blurb": "From playstation, to tvOS, to Tizen, we were able to expand Eurosport Player onto new connected device platforms for a lean-back and watch experience to meet different user's needs.",
                 "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
