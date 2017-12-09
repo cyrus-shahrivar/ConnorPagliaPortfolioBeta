@@ -5,17 +5,17 @@
         "heroImage": "https://source.unsplash.com/random/1200x680",
         "logo": "img/clients/clients2/nhl.svg",
         "isSvg": "hero__logo--svg",
-        "logoHeight": "23px",
-        "logoWidth": "20px",
+        "logoHeight": "30px",
+        "logoWidth": "26px",
         "largeLetter": "N",
         "primaryColor": "#3A3B3E",
-        "title": "NHL",
-        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
+        "title": "National Hockey League",
+        "subtitle": "Watching Hockey just got a makeover, starting from the inside out.",
         "clientOfficialName": "NHL",
         "role": "Lead Designer",
         "detailSections": [{
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "A new suite of applications, a whole new experience.",
+                "blurb": "Hockey has such a intense fan base that the digital experience just wasn't stacking up to real life hockey. We set out to change that with customizable camera angles, home & away feed selection, stats and 60 frames-per-second high quality live video",
                 "imageScheme": "one-two-splice",
                 "specialClass": "",
                 "imageGroups": [
@@ -43,12 +43,12 @@
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
-                    ]
+                 ]
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "Analytics to prove hypothesis",
+                "blurb": "Most would think an updated design would out perform an old one, but we needed to make sure. So we tested multiple new mastheads, messaging to increase the value proposition of the sales page. The goal of doubling conversations is en route.",
                 "imageScheme": "single",
                 "specialClass": "",
                 "imageGroups": [
