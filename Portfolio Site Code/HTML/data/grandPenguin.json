@@ -3,29 +3,30 @@
         "clientShortName": "Grand Pengin",
         "heroVideo": "img/portfolioPages/heroVideos/GP_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
-        "logo": "img/clients/clients2/eurosport.svg",
+        "logo": "img/clients/clients2/grandpenguin_logo.svg",
         "isSvg": "hero__logo--svg",
-        "logoHeight": "23px",
-        "logoWidth": "19px",
+        "logoHeight": "42px",
+        "logoWidth": "23px",
         "largeLetter": "G",
-        "primaryColor": "#C10538",
+        "primaryColor": "#725319",
         "title": "Grand Penguin",
-        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
-        "clientOfficialName": "Discovery Communnications",
-        "role": "Lead Designer",
+        "subtitle": "Giving life to a unique craft beer brand brewed batch by batch",
+        "clientOfficialName": "Grand Penguin Beer Co.",
+        "role": "Creative Director",
         "detailSections": [{
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "Differentiating in a saturated craft beer market",
+                "blurb": "This small craft beer company was looking to appeal to the classic gentleman, but with a sense of humor and personality. It's messaging reaches to the vices and virtues of many, providing it's first beer of many to come - a Black IPA named Coffee & Cigarettes.",
                 "imageScheme": "one-two-splice",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
-                            "assetType": "image",
-                            "url": "img/portfolioPages/GrandPenguin/grandPenguin_website.png",
+                    [
+                        {
+                            "assetType": "video",
+                            "url": "img/portfolioPages/GrandPenguin/grandpenguin.mp4",
                             "height": "",
-                            "width": "",
+                            "width": "100%",
                             "specialContainerClass": "",
-                            "specialAssetClass": ""
+                           "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         },
                         {
                             "assetType": "image",
@@ -47,8 +48,8 @@
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "A unique look for a unique brand",
+                "blurb": "Hand drawn illustrations incorporated into ornamental, dark packaging gave this brand a feel perfect for the owners vision and target audience.",
                 "imageScheme": "single",
                 "specialClass": "",
                 "imageGroups": [
