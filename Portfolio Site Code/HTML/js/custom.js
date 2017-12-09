@@ -309,18 +309,12 @@ $(document).ready(function() {
 
     $(window).scroll(function () {
         var $header = $('header');
-        var $openButton = $('.header__open-button');
-        var $closeButton = $('.header__close-button');
         var $mobileLogo = $('.header__nav-bar--mobile .header__logo');
         if ($(this).scrollTop() > 50) {
             $header.addClass('header-transition');
-            $openButton.addClass('mobile-toggle-transition');
-            $closeButton.addClass('mobile-toggle-transition');
             $mobileLogo.addClass('mobile-toggle-transition');
         } else {
             $header.removeClass('header-transition');
-            $openButton.removeClass('mobile-toggle-transition');
-            $closeButton.removeClass('mobile-toggle-transition');
             $mobileLogo.removeClass('mobile-toggle-transition');
         }
     });

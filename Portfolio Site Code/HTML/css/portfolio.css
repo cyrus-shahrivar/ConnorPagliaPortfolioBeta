@@ -108,13 +108,6 @@ table {
     text-decoration: none;
 }
 
-.header__open-button {
-    display: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .header__nav-bar {
     float: right;
 }
@@ -126,7 +119,7 @@ table {
 .header ul {
     list-style: none;
     line-height: 30px;
-    
+
 }
 
 .header li {
@@ -143,7 +136,7 @@ table {
     text-transform: uppercase;
     text-decoration: none;
 
-    
+
 }
 
 .header ul li a.active {
@@ -154,11 +147,65 @@ table {
     color: #d5d5d5;
 }
 
+.header__open-close-button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: none;
+    float: right;
+    position: relative;
+    top: 7px;
+    z-index: 1;
+}
+
+.wrapper-menu {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+    transform: rotate(-45deg);
+}
+
+.line-menu {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 100%;
+    height: 3px;
+}
+
+.line-menu.half {
+    width: 50%;
+}
+
+.line-menu.start {
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: right;
+}
+
+.open .line-menu.start {
+    transform: rotate(-90deg) translateX(1px);
+}
+
+.line-menu.end {
+    align-self: flex-end;
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: left;
+}
+
+.open .line-menu.end {
+    transform: rotate(-90deg) translateX(-2px);
+}
+
 /* Main */
 
 .main-content {
     background-color: #f8f8f8;
-    /* height: 200px; */
 }
 
 /* Hero */
@@ -530,24 +577,24 @@ table {
     list-style: none;
     align-content:center;
     font-size: .9em
-    
+
 
 }
 
 .footerSocialIcons li {
     display: inline;
     margin: 0 10px 0 10px;
-    
+
 }
 
 .footerSocialIcons li a{
     color: #252729;
-    
-    
+
+
 }
 .footerSocialIcons li a:hover{
     color: #606060;
-    
+
 }
 
 }
@@ -642,27 +689,8 @@ table {
         transition: all .5s ease .25s;
     }
 
-    .header__close-button {
-        color: white;
-        position: fixed;
-        top: 45px;
-        right: 65px;
-        cursor: pointer;
-    }
-
-    .header__open-button {
+    .header__open-close-button {
         display: block;
-        position: fixed;
-        top: 45px;
-        right: 65px;
-        cursor: pointer;
-        transition: all .5s ease .25s;
-    }
-
-    .header__open-button.mobile-toggle-transition,
-    .header__close-button.mobile-toggle-transition {
-        top: 20px;
-        transition: all .5s ease .25s;
     }
 
     .header__nav-bar--mobile ul {
@@ -747,11 +775,6 @@ table {
 @media (max-width: 550px) {
     .header {
         padding: 45px 25px 10px 25px;
-    }
-
-    .header__open-button,
-    .header__close-button {
-        right: 25px;
     }
 
     .header__nav-bar--mobile .header__logo {
