@@ -11,15 +11,13 @@ $(document).ready(function() {
         $mobileNav.slideDown('slow', function () {
             // fade in image
             $mobileBackgroundMask.css('opacity', 0);
-            $mobileBackgroundMask.on('transitionend', function () {
-                // slide down nav items
-                $mobileNavListItems.css('opacity', 1);
-                $mobileNavListItems.on('transitionend', function () {
-                    $mobileNav.removeClass('opening');
-                    $mobileNavListItems.off('transitionend');
-                });
-                $mobileBackgroundMask.off('transitionend')
-            })
+            // slide down nav items
+            $mobileNavListItems.css('opacity', 1);
+            $mobileNavListItems.on('transitionrun', function () {
+                $mobileNav.removeClass('opening');
+                $mobileNavListItems.off('transitionend');
+            });
+            $mobileBackgroundMask.off('transitionend')
         });
     });
 
