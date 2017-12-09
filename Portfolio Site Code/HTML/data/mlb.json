@@ -9,13 +9,13 @@
         "logoWidth": "47px",
         "largeLetter": "M",
         "primaryColor": "#1616DA",
-        "title": "MLB",
-        "subtitle": "Scaling one of the largest european sports entertainment brands to fans all over Europe",
-        "clientOfficialName": "MLB",
+        "title": "Major League Baseball",
+        "subtitle": "A collection of a few projects designed and developed for America’s pasttime",
+        "clientOfficialName": "MLB & MiLB",
         "role": "Lead Designer",
         "detailSections": [{
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "Project 1: MLB Impact Data Mapping",
+                "blurb": "Having a good problem, MLB and MiLB had a ton of geographical and demographical data for their organization funding, revenues and impact on their communities. We were able to make that data come to life in a easily digestable way that front offices could use to gauge their influence at each level.",
                 "imageScheme": "one-two-splice",
                 "specialClass": "",
                 "imageGroups": [
@@ -47,10 +47,9 @@
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "There are politics in baseball",
+                "blurb": "We may want to see the game for what it is, however, a major success of this project was convincing the impact these clubs and their affiliates have on their communities with their financial contributions and job creation to politicians. This appliciation was used in countless meeting and accessments for leverage for funding and tax breaks for their organizations",
                 "imageScheme": "one-two-split",
-                "noDescription": "true",
                 "specialClass": "",
                 "imageGroups": [
                     [
@@ -83,8 +82,8 @@
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "Project 2: Teaching MLB youth how to properly care for their health",
+                "blurb": "Advice and training advice from MLB's top orthopedic staff as well as top MLB players, Pitchsmart was a huge hit within the PLAYBALL initiative to gain the next generation of youth recreation baseball players.",
                 "imageScheme": "one-two-split",
                 "noDescription": "true",
                 "specialClass": "",
@@ -119,9 +118,10 @@
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
-                "imageScheme": "single",
+                
+                "title": "Project 2: Teaching MLB youth how to properly care for their health",
+                "blurb": "Advice and training advice from MLB's top orthopedic staff as well as top MLB players, Pitchsmart was a huge hit within the PLAYBALL initiative to gain the next generation of youth recreation baseball players.",
+                "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
                     [{
