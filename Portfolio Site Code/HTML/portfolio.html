@@ -21,7 +21,9 @@
     <script id="header" type="text/x-handlebars-template">
         <header class="header">
             <div class="header__logo">
-                <a href="/index.html?notHomeReturn=true&scrollTo=intro">CP</a>
+                <a href="/index.html?notHomeReturn=true&scrollTo=intro">
+                    <img alt="thumbnail" class="header__logo" src="img/cp_header_logo.png">
+                </a>
             </div>
             <i class="fa fa-bars header__open-button" aria-hidden="true"></i>
             <nav class="header__nav-bar">
@@ -35,7 +37,7 @@
             <nav class="header__nav-bar header__nav-bar--mobile">
                 <div class="header__background-mask"></div>
                 <div class="header__logo">
-                    <a href="/index.html?notHomeReturn=true&scrollTo=intro">CP</a>
+                    <a href="/index.html?notHomeReturn=true&scrollTo=intro"></a>
                 </div>
                 <div class="header__close-button">&#10005;</div>
                 <ul>
@@ -109,18 +111,19 @@
         <section class="more-work">
             <a class="more-work__title" href="/index.html?notHomeReturn=true&scrollTo=portfolio">&#10229; MORE WORK</a>
         </section>
-        <footer class="footer">
-            <div class="footer__up-arrow"></div>
-            <div class="footer__social-links">
-                <ul class="footer__social-links-list">
-                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-                    <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
-                </ul>
-            </div>
-            <div class="footer__copyright"><span class="footer__legal-bold">All Rights Reserved.</span> CP Design 2017.</div>
-        </footer>
+
+         <section id="footer" class="dark">
+        <div class="bottomLine text-center">
+            <ul class="footerSocialIcons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
+            </ul>
+            <h5>© CP Design 2017.</h5>
+        </div>
+    </section>
+
     </script>
     <script id="main" type="text/x-handlebars-template">
         {{> header}}
