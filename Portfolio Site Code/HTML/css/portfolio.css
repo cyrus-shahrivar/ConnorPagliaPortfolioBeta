@@ -31,10 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 h5{
-    font-size:14px;
+    font-size:12px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center;
     color: #282828;
 }
 
@@ -159,8 +158,8 @@ table {
 }
 
 .wrapper-menu {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 22px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -173,10 +172,10 @@ table {
 }
 
 .line-menu {
-    background-color: #fff;
+    background-color: #cccccc;
     border-radius: 2px;
     width: 100%;
-    height: 3px;
+    height: 2px;
 }
 
 .line-menu.half {
@@ -488,10 +487,9 @@ table {
 }
 
 #footer .bottomLine {
-    padding: 30px;
+   padding:30px;
     margin: 0 auto;
     background-color: #111;
-    text-align: center;
 }
 
 #footer .bottomLine p{
@@ -512,6 +510,7 @@ table {
 
 .footerText p{
     color: #a5a5a5
+    
 }
 
 
@@ -570,20 +569,21 @@ table {
 }
 
 .bottomLine .footerSocialIcons {
-    padding: 20px;
-
+    float: right;
+    line-height: 10px;
 }
 .footerSocialIcons {
     list-style: none;
     align-content:center;
     font-size: .9em
+    
 
 
 }
 
 .footerSocialIcons li {
     display: inline;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
 
 }
 
