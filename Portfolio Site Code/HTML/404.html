@@ -60,48 +60,41 @@
 
 	<body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
-<header class="header">
+<body id="bigWrapper" data-spy="scroll" data-target="header" data-offset="100" class="homepage">
+    <header class="header">
         <div class="header__logo">
-            <a href="/">
+            <a data-scroll href="#intro">
                 <img alt="thumbnail" class="header__logo" src="img/cp_header_logo.png">
             </a>
         </div>
-        <i class="fa fa-bars header__open-button" aria-hidden="true"></i>
+        <div class="header__open-close-button">
+            <div class="wrapper-menu">
+                <div class="line-menu half start"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+              </div>
+        </div>
         <nav class="header__nav-bar">
             <ul class="header__nav-list nav">
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=intro">Home</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=portfolio">Portfolio</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=about">About</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=contact">Contact</a></li>
+                <li><a data-scroll href="#intro">Home</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
         </nav>
         <nav class="header__nav-bar header__nav-bar--mobile">
             <div class="header__background-mask"></div>
             <div class="header__logo">
-                <a href="/"></a>
+                <a data-scroll href="#intro"></a>
              </div>
-            <div class="header__close-button">&#10005;</div>
             <ul>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=intro">Home</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=portfolio">Portfolio</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=about">About</a></li>
-                <li><a href="/index.html?notHomeReturn=true&scrollTo=contact">Contact</a></li>
+                <li><a data-scroll href="#intro">Home</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-        <!--preloader-->
-        <div class="ip-header">
-            <div class="ip-logo">
-                <img class="img-responsive preloaderLogo center-block" src="img/logoWhite.png" alt="preloader">
-            </div>
-
-            <div class="ip-loader">
-                <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
-                    <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-                    <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-                </svg>
-            </div>
-        </div>
         <!--end preloader-->
 
 
@@ -135,9 +128,7 @@
          <section id="footer" class="dark">
         <div class="bottomLine text-center">
             <ul class="footerSocialIcons">
-                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/connapags/"><i class="fa fa-instagram fa-2x"></i></a></li>
                 <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
             </ul>
             <h5>© CP Design 2017.</h5>
