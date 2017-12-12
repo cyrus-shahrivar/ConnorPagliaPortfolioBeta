@@ -113,8 +113,10 @@
         </section>
     </script>
     <script id="footer" type="text/x-handlebars-template">
-        <section class="more-work">
-            <a class="more-work__title" href="/index.html?notHomeReturn=true&scrollTo=portfolio">&#10229; MORE WORK</a>
+    <section class="more-work more-work-image fade-next-project grow" style="background-image:url({{nextProjectImage}});">
+            <a class="more-work__title" href="{{nextProjectLink}}">    <div> <h4>NEXT PROJECT</h4>
+        </div> {{nextProjectName}}  <div>&rarr;</div> </a>
+          
         </section>
 
          <section id="footer" class="dark">
