@@ -13,6 +13,9 @@
         "subtitle": "Watching Hockey just got a makeover, starting from the inside out.",
         "clientOfficialName": "NHL",
         "role": "Lead Designer",
+        "nextProjectLink": "/portfolio.html?name=mysteriousDeep",
+        "nextProjectName": "The Mysterious Deep",
+        "nextProjectImage": "img/portfolioPages/nhl/Mysterious_Banner_nextproject.jpg",
         "detailSections": [{
                 "title": "A new suite of applications, a whole new experience.",
                 "blurb": "Hockey has such a intense fan base that the digital experience just wasn't stacking up to real life hockey. We set out to change that with customizable camera angles, home & away feed selection, stats and 60 frames-per-second high quality live video",
