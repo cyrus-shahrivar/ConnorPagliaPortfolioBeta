@@ -526,31 +526,34 @@ overflow-x: hidden;
     color: #ffffff;
     text-decoration: none;
     display: block;
-    z-index: 1;
-    
-    
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(40, 40, 40, 0.75);
+     transition: background-color .3s ease-in-out;
+   -moz-transition: background-color .3s ease-in-out;
+   -webkit-transition: background-color .3usis ease-in-out;
+}
+
+.more-work__title:hover {
+    background-color: rgba(40, 40, 40, 0.2);
+    transition: background-color .3s ease-in-out;
+   -moz-transition: background-color .3s ease-in-out;
+   -webkit-transition: background-color .3s ease-in-out;
 }
 
 .more-work {
+    position: relative;
     background-color: #333;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-    
-}
-
-
-.more-work:hover {
-    background-color: white;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
 }
 
 
@@ -565,16 +568,27 @@ overflow-x: hidden;
     color: white;
 }
 
+.more-work-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+}
+
+.more-work-link{
+ text-decoration:none;
+}
 
 .fade-next-project {
-   opacity: .4;
+   opacity: .7;
    transition: opacity .3s ease-in-out;
    -moz-transition: opacity .3s ease-in-out;
    -webkit-transition: opacity .3s ease-in-out;
    }
 
-   .fade-next-project:hover {
-      opacity: 0.75;
+.fade-next-project:hover {
+      opacity: 0.4;
       }
 
 .grow {
