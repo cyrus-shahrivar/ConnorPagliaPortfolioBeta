@@ -379,7 +379,7 @@ h4{
 }
 
 h5{
-    font-size:14px;
+    font-size:12px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -1282,7 +1282,10 @@ label input, textarea{
 
 
 #footer .bottomLine {
-    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin: 0 auto;
     background-color: #111;
 }
@@ -1363,7 +1366,9 @@ label input, textarea{
 }
 
 .bottomLine .footerSocialIcons {
-    padding: 20px;
+  
+    float: right;
+    line-height: 40px
 }
 .footerSocialIcons {
     list-style: none;
