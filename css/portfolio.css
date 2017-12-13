@@ -942,7 +942,7 @@ overflow-x: hidden;
     }
 
     .detail-section__images--one-two-splice .detail-section__image-container:nth-child(3n) .detail-section__image {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .detail-section__images--one-two-split .detail-section__image-container:first-child {
