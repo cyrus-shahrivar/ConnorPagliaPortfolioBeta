@@ -3,7 +3,7 @@
         "clientShortName": "Grand Pengin",
         "heroVideo": "img/portfolioPages/heroVideos/GP_Hero.mp4",
         "heroImage": "https://source.unsplash.com/random/1200x680",
-        "logo": "img/clients/clients2/grandpenguin_logo.svg",
+        "logo": "img/clients/grandpenguin_logo.svg",
         "isSvg": "hero__logo--svg",
         "logoHeight": "42px",
         "logoWidth": "23px",
