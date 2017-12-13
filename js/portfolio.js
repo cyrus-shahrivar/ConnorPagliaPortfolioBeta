@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     $.ajax({
         dataType: 'json',
-        url: '/data/' + clientName + '.json'
+        url: '/Portfolio/data/' + clientName + '.json'
       }).done(function(data) {
         var compiledHtml = compiledTemplate(data[clientName]);
         var $body = $('body');
