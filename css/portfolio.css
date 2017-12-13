@@ -892,7 +892,7 @@ overflow-x: hidden;
 
 @media (max-width: 550px) {
     .header {
-        padding: 29px 25px 10px 25px;
+        padding: 25px 25px 10px 25px;
     }
 
     .header__nav-bar--mobile .header__logo {
