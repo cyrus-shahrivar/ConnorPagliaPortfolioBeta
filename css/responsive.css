@@ -285,6 +285,10 @@
     .serviceBox {
         padding: 20px;
     }
+      #text-separator, #text-separator-clients, #text-separator-testimonials, #text-separator-timers {
+    padding-left: 10px;
+    padding-top:10px;
+    }
 }
 
 /*google nexus ish*/
