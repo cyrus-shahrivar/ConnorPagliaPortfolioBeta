@@ -1,0 +1,178 @@
+{
+    "mlb": {
+        "clientShortName": "MLB",
+        "heroVideo": "img/portfolioPages/heroVideos/MLB_hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/mlb.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "23px",
+        "logoWidth": "47px",
+        "largeLetter": "M",
+        "primaryColor": "#1616DA",
+        "title": "Major League Baseball",
+        "subtitle": "A collection of a few projects designed and developed for America’s pasttime",
+        "clientOfficialName": "MLB & MiLB",
+        "role": "Lead Designer",
+        "nextProjectLink": "/portfolio.html?name=nhl",
+        "nextProjectName": "National Hockey League",
+        "nextProjectImage": "img/portfolioPages/MLB/4-large@2x.jpg",
+        "detailSections": [{
+                "title": "Project 1: MLB Impact Data Mapping",
+                "blurb": "Having a good problem, MLB and MiLB had a ton of geographical and demographical data for their organization funding, revenues and impact on their communities. We were able to make that data come to life in a easily digestable way that front offices could use to gauge their influence at each level.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/MLB_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/MLB_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/MLB_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "There are politics in baseball",
+                "blurb": "We may want to see the game for what it is, however, a major success of this project was convincing the impact these clubs and their affiliates have on their communities with their financial contributions and job creation to politicians. This appliciation was used in countless meeting and accessments for leverage for funding and tax breaks for their organizations",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
+                            "height": "0",
+                            "width": "0",
+                            "specialContainerClass": "",
+                            "specialAssetClass": "detail-section__image--hide detail-section__image--0-min-height-override"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Commissioner Letter Copy@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Project 2: Teaching MLB youth how to properly care for their health",
+                "blurb": "Advice and training advice from MLB's top orthopedic staff as well as top MLB players, Pitchsmart was a huge hit within the PLAYBALL initiative to gain the next generation of youth recreation baseball players.",
+                "imageScheme": "one-two-split",
+                "noDescription": "true",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "comment": "THIS IMAGE IS JUST A PLACEHOLDER, NOT SHOWN",
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Landing@2x.jpg",
+                            "height": "0",
+                            "width": "0",
+                            "specialContainerClass": "detail-section__image-container--30-padding-bottom-special",
+                            "specialAssetClass": "detail-section__image--hide detail-section__image--0-min-height-override"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Map Area Data@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Map Closed Nav@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                
+                "title": "Project 2: Teaching MLB youth how to properly care for their health",
+                "blurb": "Advice and training advice from MLB's top orthopedic staff as well as top MLB players, Pitchsmart was a huge hit within the PLAYBALL initiative to gain the next generation of youth recreation baseball players.",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "video",
+                            "url": "img/portfolioPages/MLB/Pitchsmart.mp4",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Understanding the fans",
+                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "imageScheme": "one-two-split",
+                "noDescription": "true",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/Pitchsmart_mobile@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/PitchSmart_Home@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MLB/PitchSmart_Home_Wire_V2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "nhl": {
+        "clientShortName": "NHL",
+        "heroVideo": "img/portfolioPages/heroVideos/NHL_hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/nhl.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "30px",
+        "logoWidth": "26px",
+        "largeLetter": "N",
+        "primaryColor": "#3A3B3E",
+        "title": "National Hockey League",
+        "subtitle": "Watching Hockey just got a makeover, starting from the inside out.",
+        "clientOfficialName": "NHL",
+        "role": "Lead Designer",
+        "nextProjectLink": "/portfolio.html?name=mysteriousDeep",
+        "nextProjectName": "The Mysterious Deep",
+        "nextProjectImage": "img/portfolioPages/nhl/Mysterious_Banner_nextproject.jpg",
+        "detailSections": [{
+                "title": "A new suite of applications, a whole new experience.",
+                "blurb": "Hockey has such a intense fan base that the digital experience just wasn't stacking up to real life hockey. We set out to change that with customizable camera angles, home & away feed selection, stats and 60 frames-per-second high quality live video",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                 ]
+                ]
+            },
+            {
+                "title": "Analytics to prove hypothesis",
+                "blurb": "Most would think an updated design would out perform an old one, but we needed to make sure. So we tested multiple new mastheads, messaging to increase the value proposition of the sales page. The goal of doubling conversations is en route.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_1.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                    },
+                    {
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_2.mp4",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    }
+                    ]
+                ]
+            }
+        ]
+    }
+}
