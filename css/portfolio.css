@@ -401,7 +401,7 @@ overflow-x: hidden;
 	line-height: 2.25;
 	text-align: left;
     color: #4c4c4e;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 /* Images */
@@ -934,7 +934,7 @@ overflow-x: hidden;
     .detail-section__blurb {
         font-size: 15px;
         line-height: 1.73;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .detail-section__images--one-two-splice .detail-section__image:first-child {
