@@ -377,7 +377,7 @@ overflow-x: hidden;
 }
 
 .detail-section {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .detail-section__description {
