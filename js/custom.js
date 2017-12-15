@@ -1,6 +1,6 @@
 $(document).ready(function() {
-
     "use strict";
+    var headerHeight = 65;
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* Intro Height  */
@@ -224,7 +224,7 @@ $(document).ready(function() {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* timers */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    $('#text-separator-timers').waypoint(function() {
+    $('#about').waypoint(function() {
         "use strict";
         // first timer
         $('.timer1').countTo({
@@ -270,7 +270,7 @@ $(document).ready(function() {
 
 
     }, {
-        offset: 500
+        offset: headerHeight + 1
     });
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -296,7 +296,7 @@ $(document).ready(function() {
         var elementToScrollTo = document.getElementById(scrollTo);
         var elementToScrollToScrollPosition = elementToScrollTo.offsetTop;
 
-        $(window).scrollTop(elementToScrollToScrollPosition - 65);
+        $(window).scrollTop(elementToScrollToScrollPosition - headerHeight);
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
