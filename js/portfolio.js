@@ -89,5 +89,13 @@ $(document).ready(function () {
         });
 
         $mobileNav.hide();
+
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 768) {
+            $('video').each(function (index, item) {
+                $(item).prop('loop', false)
+                    .prop('autoplay', false)
+                    .prop('controls', true);
+            });
+        }
     });
 })
