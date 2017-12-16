@@ -38,6 +38,13 @@
 
 }
 
+@media (max-width: 991px) {
+    .connor-head {
+        left: 0;
+        margin: 0 auto;
+    }
+}
+
 /*Medium Tablets */
 @media (max-width: 900px){
 
@@ -211,6 +218,13 @@
 
 @media screen and (max-width: 600px) and (orientation : landscape){
 
+}
+
+@media (max-width: 550px) {
+    .connor-head {
+        width: 262px;
+        height: 409px;
+    }
 }
 
 
