@@ -130,6 +130,7 @@
                     [{
                             "assetType": "video",
                             "url": "img/portfolioPages/MLB/Pitchsmart.mp4",
+                            "placeholder": "img/portfolioPages/MLB/MLB_placeholder_video1.jpg",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",

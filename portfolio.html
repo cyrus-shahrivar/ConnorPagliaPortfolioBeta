@@ -116,7 +116,7 @@
                                 {{/equals}}
                                 {{#equals this.assetType "video"}}
                                     <div class="detail-section__image-container">
-                                        <video class="{{this.specialAssetClass}}" src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" autoplay loop muted></video>
+                                        <video class="{{this.specialAssetClass}}" src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" {{#if this.placeholder}}poster="{{this.placeholder}}"{{/if}} autoplay loop muted></video>
                                     </div>
                                 {{/equals}}
                             {{/each}}

@@ -26,6 +26,7 @@
                         {
                             "assetType": "video",
                             "url": "img/portfolioPages/GrandPenguin/grandpenguin.mp4",
+                            "placeholder": "img/portfolioPages/GrandPenguin/GP_placeholder_video1.jpg",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",

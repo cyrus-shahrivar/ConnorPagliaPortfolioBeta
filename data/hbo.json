@@ -58,6 +58,7 @@
                         {
                             "assetType": "video",
                             "url": "img/portfolioPages/HBO/hbo_web.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video1.jpg",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",
@@ -99,6 +100,7 @@
                     [{
                             "assetType": "video",
                             "url": "img/portfolioPages/HBO/hbo_interaction.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video2.jpg",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",
@@ -107,6 +109,7 @@
                         {
                             "assetType": "video",
                             "url": "img/portfolioPages/HBO/hbo_cd.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video3.jpg",
                             "height": "",
                             "width": "100%",
                             "specialContainerClass": "",

@@ -58,6 +58,7 @@
                     [{
                         "assetType": "video",
                         "url": "img/portfolioPages/NHL/NHL_Sales_1.mp4",
+                        "placeholder": "img/portfolioPages/NHL/NHL_placeholder_video1.jpg",
                         "height": "",
                         "width": "100%",
                         "specialContainerClass": "",
@@ -66,6 +67,7 @@
                     {
                         "assetType": "video",
                         "url": "img/portfolioPages/NHL/NHL_Sales_2.mp4",
+                        "placeholder": "img/portfolioPages/NHL/NHL_placeholder_video2.jpg",
                         "height": "",
                         "width": "100%",
                         "specialContainerClass": "",
