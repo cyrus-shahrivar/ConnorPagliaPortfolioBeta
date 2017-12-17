@@ -1474,3 +1474,24 @@ ol {
     flex: 0 0 auto;
     flex-basis: 33.333%;
 }
+
+/* Background Fix*/
+.parallax-background {
+    background-image: url('../img/background1@2x.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -9999999;
+    position: fixed;
+}
+
+body.not-desktop #intro {
+    background-image: url('../img/background1@2x.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+body.not-desktop .parallax-background {
+    display: none;
+}

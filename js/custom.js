@@ -333,4 +333,10 @@ $(document).ready(function() {
         $('.client-logos-container .clientLogo').removeClass('col--4').addClass('col--2');
     }
 
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    // Parallax/Not-Parallax Background Fix
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        $('body').addClass('not-desktop');
+    }
 });
