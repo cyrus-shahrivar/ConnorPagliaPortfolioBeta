@@ -15,7 +15,7 @@
         "role": "Creative Director",
         "nextProjectLink": "/Portfolio/portfolio.html?name=eurosport",
         "nextProjectName": "Eurosport Player",
-        "nextProjectImage": "img/gallery/1@2x.jpg",
+        "nextProjectImage": "img/portfolioPages/GrandPenguin/Eurosport_Banner_nextproject.jpg",
         "detailSections": [{
                 "title": "Differentiating in a saturated craft beer market",
                 "blurb": "This small craft beer company was looking to appeal to the classic gentleman, but with a sense of humor and personality. It's messaging reaches to the vices and virtues of many, providing it's first beer of many to come - a Black IPA named Coffee & Cigarettes.",
@@ -34,7 +34,7 @@
                         },
                         {
                             "assetType": "image",
-                            "url": "img/portfolioPages/GrandPenguin/Eurosport_Banner_nextproject.jpg",
+                            "url": "img/portfolioPages/GrandPenguin/GP_Banner_image1@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
