@@ -1,10 +1,18 @@
 @media (min-width: 1200px){
+       #contact
+    {
+        padding-bottom:200px;
+    }
 
 }
 
 
 /*Notebooks and Small Laptops*/
 @media (min-width: 1025px){
+       #contact
+    {
+        padding-bottom:200px;
+    }
 
 }
 
