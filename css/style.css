@@ -1006,8 +1006,45 @@ p.bold {
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 #contact {
-    background: white;
+    background: black;
+    color: white;
 }
+
+.contact-subtitle {
+    color: white;
+}
+
+.contact-image {
+    display:  block;
+    position:  absolute;
+    height: 100%;
+    right: 0;
+    width: 50%;
+    top: 0;
+    background-image: url('../img/contact_background.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-bullet-align {
+    vertical-align: bottom;
+}
+
+.contact-link,
+.contact-link:hover,
+.contact-link:active,
+.contact-link:visited,
+.contact-link:focus {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .contact-image {
+        display: none;
+    }
+}
+
 label {
     width: 100%;
 }
