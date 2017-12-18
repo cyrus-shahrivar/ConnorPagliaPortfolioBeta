@@ -1,8 +1,10 @@
 @media (min-width: 1200px){
        #contact {
-        padding-bottom:200px;
+        padding-bottom:100px;
     }
-
+       #contact p.bold {
+       padding-top: 100px;
+    }
 }
 
 
