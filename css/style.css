@@ -349,7 +349,7 @@ p {
     color: #4c4c4c;
 }
 p.bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
@@ -432,7 +432,7 @@ p.bold {
 }
 .timerWrapper {
     color: white;
-    padding: 0px;
+    padding: 20px;
 }
 .timerWrapper h1 {
     letter-spacing: 0;
@@ -1006,7 +1006,7 @@ p.bold {
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 #contact {
-    background: black;
+    background: #0F1014;
     color: white;
 }
 
@@ -1099,7 +1099,7 @@ textarea {
 #contact p.bold {
     padding-top: 40px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 22px;
 }
 .socialContact {
     list-style: none;
