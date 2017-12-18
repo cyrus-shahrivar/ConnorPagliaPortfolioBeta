@@ -349,7 +349,7 @@ p {
     color: #4c4c4c;
 }
 p.bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
@@ -1099,7 +1099,7 @@ textarea {
 #contact p.bold {
     padding-top: 40px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 22px;
 }
 .socialContact {
     list-style: none;
