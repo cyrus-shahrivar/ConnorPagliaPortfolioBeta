@@ -1,6 +1,5 @@
 @media (min-width: 1200px){
-       #contact
-    {
+       #contact {
         padding-bottom:200px;
     }
 
@@ -9,8 +8,7 @@
 
 /*Notebooks and Small Laptops*/
 @media (min-width: 1025px){
-       #contact
-    {
+       #contact {
         padding-bottom:200px;
     }
 
