@@ -8,6 +8,7 @@
         "logoHeight": "30px",
         "logoWidth": "26px",
         "largeLetter": "N",
+        "largeLetterImage": "img/clients/nhl_large_letter.svg",
         "primaryColor": "#3A3B3E",
         "title": "National Hockey League",
         "subtitle": "Watching Hockey just got a makeover, starting from the inside out.",
