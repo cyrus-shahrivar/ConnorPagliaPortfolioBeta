@@ -42,7 +42,10 @@
         text-align:center;
         margin-bottom:50px;
     }
-
+      
+      .hero__description {
+       background-size: 50%;
+    }
 
 }
 
@@ -325,6 +328,12 @@
     #text-separator-testimonials h3 span {
         padding:0;
         border:none;
+    }
+       
+    }
+      
+      .hero__description {
+       background-size: 85%;
     }
 }
 /*Other Major Small Smart Phones*/
