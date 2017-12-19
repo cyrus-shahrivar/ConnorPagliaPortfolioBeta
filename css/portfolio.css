@@ -278,6 +278,9 @@ overflow-x: hidden;
     position: absolute;
     background-color: #181818;
     z-index: 1;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero__video-container {

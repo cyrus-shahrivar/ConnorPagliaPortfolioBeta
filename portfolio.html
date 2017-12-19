@@ -70,8 +70,7 @@
     </script>
     <script id="hero" type="text/x-handlebars-template">
         <section id="hero-section" class="hero">
-            <section class="hero__description">
-                <div class="hero__large-letter">{{largeLetter}}</div>
+            <section class="hero__description" style="background-image: url({{largeLetterImage}})">
                 <div class="hero__logo {{#if isSvg}}{{isSvg}}{{/if}}" style="background-image: url({{logo}}); height: {{logoHeight}}; width: {{logoWidth}};">
                 </div>
                 <hr class="hero__divider">
