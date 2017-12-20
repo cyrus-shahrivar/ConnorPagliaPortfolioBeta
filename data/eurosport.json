@@ -82,12 +82,13 @@
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
+                        
                     ]
                 ]
             },
             {
-                "title": "Understanding the fans",
-                "blurb": "The people affected must contact the support person and explain the issue. Hopefully, the service provider is immediately available and they must only wait while the technician travels to the site. Once on site, the technician must diagnose the problem.",
+                "title": "",
+                "blurb": "",
                 "imageScheme": "single",
                 "specialClass": "",
                 "imageGroups": [
