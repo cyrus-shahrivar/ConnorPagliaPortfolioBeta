@@ -310,6 +310,10 @@
     padding-left: 10px;
     padding-top:10px;
     }
+       
+    .hero__description {
+     background-size: 85%;
+    }
 }
 
 /*google nexus ish*/
