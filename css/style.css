@@ -381,7 +381,25 @@ p.bold {
     position: relative;
     width: 800px;
     margin-bottom: 10px;
+      animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82);
+    -moz-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82);
+    -webkit-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82); /* Safari and Chrome */
+    -o-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82); /* Opera */
+    -webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-delay: 1s;
 }
+
+@keyframes onLoad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #intro .separator {
     margin-top: 20px;
     margin-bottom: 40px;
