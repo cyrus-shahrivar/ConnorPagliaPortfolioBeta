@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="587px" height="525px" viewBox="0 0 587 525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="588px" height="525px" viewBox="0 0 588 525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
     <title>M</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Major-League-Baseball" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-63.000000, -126.000000)" font-family="Montserrat-Bold, Montserrat" font-size="750" font-weight="bold" opacity="0.03">
-        <g id="NHL-Masthead" transform="translate(-2.000000, -76.000000)" fill="#FFFFFF">
-            <g id="Group-2" transform="translate(1.000000, 0.000000)">
-                <text id="M">
-                    <tspan x="0.256853715" y="726.69714">M</tspan>
-                </text>
+    <g id="Major-League-Baseball" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-63.000000, -126.000000)" opacity="0.03">
+        <g id="NHL-Masthead" transform="translate(-2.000000, -1.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(65.000000, 127.000000)">
+                <polygon id="M" points="470.256854 194.69714 328.506854 481.19714 258.756854 481.19714 117.756854 194.69714 117.756854 524.69714 0.756853715 524.69714 0.756853715 0.447139806 159.006854 0.447139806 294.006854 288.44714 429.756854 0.447139806 587.256854 0.447139806 587.256854 524.69714 470.256854 524.69714"></polygon>
             </g>
         </g>
     </g>
