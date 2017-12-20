@@ -333,8 +333,9 @@ h3 {
 h4 {
     font-size: 22px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     line-height: 26px;
+    
 }
 h5 {
     font-size: 12px;
@@ -373,8 +374,8 @@ p.bold {
 }
 #intro h4 {
     color: #606060;
-    font-size: 12px;
-    letter-spacing: px;
+    font-size: 13px;
+    font-weight:500;
 }
 .introLogo {
     position: relative;
