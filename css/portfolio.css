@@ -260,7 +260,7 @@ overflow-x: hidden;
 /* Hero */
 
 .hero {
-    background: #181818;
+    background: ##131419;
     overflow: hidden;
     height: 100vh;
     max-height: 100vh;
@@ -276,9 +276,9 @@ overflow-x: hidden;
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    background-color: #181818;
+    background-color: ##131419;
     z-index: 1;
-    background-size: 70%;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
