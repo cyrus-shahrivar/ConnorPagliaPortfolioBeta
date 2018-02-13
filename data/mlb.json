@@ -19,7 +19,7 @@
         "nextProjectImage": "img/gallery/4@2x.jpg",
         "detailSections": [{
                 "title": "Project 1: MLB Impact Data Mapping",
-                "blurb": "Having a good problem, MLB and MiLB had a ton of geographical and demographical data for their organization funding, revenues and impact on their communities. We were able to make that data come to life in a easily digestable way that front offices could use to gauge their influence at each level.",
+                "blurb": "Having a good problem, MLB and MiLB had a ton of geographical and demographical data for their organization funding, revenues and impact on their communities, without a great use for the data. We were able to make that data come to life in a easily digestable way that front offices could use to gauge their influence at each level.",
                 "imageScheme": "one-two-splice",
                 "specialClass": "",
                 "imageGroups": [
@@ -52,7 +52,7 @@
             },
             {
                 "title": "There are politics in baseball",
-                "blurb": "We may want to see the game for what it is, however, a major success of this project was convincing the impact these clubs and their affiliates have on their communities with their financial contributions and job creation to politicians. This appliciation was used in countless meeting and accessments for leverage for funding and tax breaks for their organizations.",
+                "blurb": "A major success of this project was convincing the impact these clubs and their affiliates have on their communities with their financial contributions and job creation to politicians. This appliciation was used in countless meetings and accessments for leverage on funding and tax breaks for their organizations.",
                 "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
