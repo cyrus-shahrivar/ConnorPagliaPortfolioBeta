@@ -240,7 +240,7 @@ $(document).ready(function() {
         $('.timer2').countTo({
 
             from: 0, // the number you want to start
-            to: 3, // the number you want to reach
+            to: 14, // the number you want to reach
             speed: 500,
             refreshInterval: 50
 
@@ -251,7 +251,7 @@ $(document).ready(function() {
         $('.timer3').countTo({
 
             from: 0, // the number you want to start
-            to: 12, // the number you want to reach
+            to: 6, // the number you want to reach
             speed: 500,
             refreshInterval: 10
         });
