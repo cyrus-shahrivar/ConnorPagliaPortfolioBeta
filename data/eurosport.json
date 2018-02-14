@@ -98,12 +98,6 @@
                             "specialContainerClass": "",
                             "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                         },
-                        {
-                            "assetType": "image",
-                            "url": "img/portfolioPages/Eurosport/eurotype@2x.jpg",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                        },
                     ]
                 ]
             },
