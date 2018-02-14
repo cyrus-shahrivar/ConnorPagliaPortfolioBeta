@@ -109,7 +109,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "url": "img/portfolioPages/Eurosport/EuroMobile@2x.jpg",
+                            "url": "img/portfolioPages/Eurosport/eurotype@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
@@ -126,7 +126,7 @@
                     [
                         {
                             "assetType": "image",
-                            "url": "img/portfolioPages/Eurosport/eurotype@2x.jpg",
+                            "url": "img/portfolioPages/Eurosport/EuroMobile@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         },
