@@ -117,6 +117,12 @@
                         },
                         {
                             "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/eurotype@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
                             "url": "img/portfolioPages/Eurosport/HomeSalesScreen@2x.jpg",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
