@@ -25,7 +25,7 @@
                 "imageGroups": [
                     [{
                             "assetType": "image",
-                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                            "url": "img/portfolioPages/NHL/nhl_iphonex@2x.jpg",
                             "height": "",
                             "width": "",
                             "specialContainerClass": "",
@@ -73,7 +73,17 @@
                         "width": "100%",
                         "specialContainerClass": "",
                         "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "video",
+                        "url": "img/portfolioPages/NHL/NHL_Sales_2.mp4",
+                        "placeholder": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                        "height": "",
+                        "width": "100%",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
                     }
+                     
                     ]
                 ]
             }
