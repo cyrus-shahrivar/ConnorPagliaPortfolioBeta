@@ -89,6 +89,7 @@
             {
                 "title": "",
                 "blurb": "",
+                "noDescription": "true",
                 "imageScheme": "single",
                 "specialClass": "",
                 "imageGroups": [
@@ -104,6 +105,7 @@
               {
                 "title": "",
                 "blurb": "",
+                "noDescription": "true",
                 "imageScheme": "single",
                 "specialClass": "",
                 "imageGroups": [
