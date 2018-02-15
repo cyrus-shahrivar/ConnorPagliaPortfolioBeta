@@ -80,7 +80,24 @@
                         "width": "100%",
                         "specialContainerClass": "",
                         "specialAssetClass": "detail-section__image--80-margin-bottom-special"
-                    } 
+                    }
+     
+                   ]
+               ]
+           },
+            {
+                "title": "",
+                "blurb": "",
+                "noDescription": "true",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/NHL/nhltype@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
                     ]
                 ]
             }
