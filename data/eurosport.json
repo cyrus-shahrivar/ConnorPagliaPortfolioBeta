@@ -143,7 +143,7 @@
                             "url": "img/portfolioPages/Eurosport/euro_cd.mp4",
                             "placeholder": "img/portfolioPages/Eurosport/Eurosport_placeholder_video1.jpg",
                             "height": "",
-                            "width": "50%",
+                            "width": "100%",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
