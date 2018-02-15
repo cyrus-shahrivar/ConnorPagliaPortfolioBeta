@@ -53,10 +53,17 @@
             {
                 "title": "Analytics to prove hypothesis",
                 "blurb": "Most would think an updated design would out perform an old one, but we needed to make sure. So we tested multiple new mastheads, photography styles, and messaging to increase the value proposition of the sales page. The goal of doubling conversations is en route.",
-                "imageScheme": "single",
+                "imageScheme": "one-two-split",
                 "specialClass": "",
                 "imageGroups": [
-                    [{
+                    [{      "assetType": "image",
+                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                     },
+                     {
                         "assetType": "video",
                         "url": "img/portfolioPages/NHL/NHL_Sales_1.mp4",
                         "placeholder": "img/portfolioPages/NHL/NHL_placeholder_video1.jpg",
@@ -73,16 +80,7 @@
                         "width": "100%",
                         "specialContainerClass": "",
                         "specialAssetClass": "detail-section__image--80-margin-bottom-special"
-                    },
-                    {
-                            "assetType": "image",
-                            "url": "img/portfolioPages/NHL/NHL_top@2x.jpg",
-                            "height": "",
-                            "width": "",
-                            "specialContainerClass": "",
-                            "specialAssetClass": ""
-                     }
-                     
+                    } 
                     ]
                 ]
             }
