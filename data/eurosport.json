@@ -139,8 +139,11 @@
                             "specialAssetClass": ""
                         },
                         {
-                            "assetType": "image",
-                            "url": "img/portfolioPages/Eurosport/VideoPlayerLive@2x.jpg",
+                            "assetType": "video",
+                            "url": "img/portfolioPages/Eurosport/euro_cd.mp4",
+                            "placeholder": "img/portfolioPages/Eurosport/Eurosport_placeholder_video1.jpg",
+                            "height": "",
+                            "width": "",
                             "specialContainerClass": "",
                             "specialAssetClass": ""
                         }
