@@ -72,7 +72,7 @@
                         "height": "",
                         "width": "100%",
                         "specialContainerClass": "",
-                        "specialAssetClass": ""
+                        "specialAssetClass": "detail-section__image--80-margin-bottom-special"
                     },
                     {
                             "assetType": "image",
