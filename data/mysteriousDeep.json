@@ -65,6 +65,14 @@
                     },
                     {
                         "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/mysterioustype@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
                         "url": "img/portfolioPages/MysteriousDeep/Mysterious_print@2x.jpg",
                         "height": "",
                         "width": "",
