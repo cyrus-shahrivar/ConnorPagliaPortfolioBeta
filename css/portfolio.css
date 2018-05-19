@@ -46,8 +46,8 @@ h4{
 }
 
 h1, h2, h3, h4, h5{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
 }
 
 body {
@@ -339,9 +339,9 @@ overflow-x: hidden;
 }
 
 .hero__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
 	font-size: 85px;
-	font-weight: bold;
+	font-weight: 900;
 	line-height: 1.0;
     color: #ffffff;
     margin-bottom: 30px;
@@ -349,7 +349,7 @@ overflow-x: hidden;
 }
 
 .hero__subtitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
     font-weight: 400;
 	font-size: 22px;
 	line-height: 1.6;
@@ -376,7 +376,7 @@ overflow-x: hidden;
 }
 
 .hero__client-description, .hero__role-description {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
     font-size: 14px;
     font-weight: 300;
 	color: #9d9d9d;
@@ -398,9 +398,9 @@ overflow-x: hidden;
 }
 
 .detail-section__title {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: 900;
 	line-height: 1.5;
     color: #252535;
     padding-top: 100px;
@@ -408,7 +408,7 @@ overflow-x: hidden;
 }
 
 .detail-section__blurb {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
 	font-size: 16px;
 	line-height: 2.25;
 	text-align: left;

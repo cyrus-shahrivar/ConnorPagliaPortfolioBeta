@@ -218,11 +218,13 @@
         margin: 0;
     }
     .header__nav-bar--mobile ul li a {
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 40px;
+        font-weight: 700;
         line-height: 1.43;
         text-align: center;
         text-transform: none;
+        font-family: 'Playfair Display', serif;
+        color: #bcbcbc;
     }
     .header__mobile-menu-toggle {
         display: block;
