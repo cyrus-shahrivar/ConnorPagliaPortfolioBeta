@@ -54,6 +54,17 @@
         left: 0;
         margin: 0 auto;
     }
+       
+      .masthead-row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/intro_small@2x.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    }
 }
 
 /*Medium Tablets */
@@ -184,15 +195,26 @@
 
 /*Medium Smart Phones v2*/
 @media screen and (max-width: 640px){
-    h1 {
-        font-size: 36px;
-        letter-spacing: 10px;
+       
+        .masthead-row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/intro_small@2x.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 0 10vw 0 0;
+
+    }
+     h1 {
+        font-size: 48px;
+    
     }
 
     h2 {
-        font-size: 24px;
-        text-transform: uppercase;
-        letter-spacing: 8px;
+        font-size: 48px;
+     
+ 
     }
 
     .introLogo {
