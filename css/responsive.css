@@ -218,14 +218,18 @@
 }
 
 @media screen and (max-width: 600px){
-
-    h1 {
-        font-size: 36px;
-        letter-spacing: 10px;
+      h1 {
+        font-size: 48px;
+    
     }
 
+    h2 {
+        font-size: 48px;
+    }
+ 
 
 }
+
 
 @media screen and (max-width: 600px) and (orientation : landscape){
 
