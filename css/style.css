@@ -349,14 +349,16 @@ h1 {
   background: linear-gradient(to left, #A41A43, #CE272A); /* Standard syntax */;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- font-family: 'Yeseva One', cursive;
+ font-family: 'Playfair Display', serif;
+ font-weight: 900;
   
 
 }
 
 h2 {
     font-size: 60px;
- font-family: 'Yeseva One', cursive;
+ font-family: 'Playfair Display', serif;
+ font-weight: 900;
 }
 h3 {
     font-family: 'Crimson Text', sans-serif;
@@ -391,12 +393,7 @@ p {
 p.bold {
     font-weight: 500;
 }
-p.light {
-    font-family: 'Six Caps', sans-serif;
-    font-size: 12px;
-    line-height: 24px;
-    color: #70737C;
-}
+
 .listRed {
     font-family: 'Crimson Text', sans-serif;
     font-weight: 300;
