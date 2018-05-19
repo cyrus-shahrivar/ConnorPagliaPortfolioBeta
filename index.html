@@ -29,7 +29,7 @@
 
 
     <!-- Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700,800" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700|Six+Caps|Yeseva+One|Montserrat:400,500,600,700,800"rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
@@ -55,7 +55,9 @@
 </head>
 
 <body id="bigWrapper" data-spy="scroll" data-target="header" data-offset="100" class="homepage">
+    <div class="parallax-background-layer"></div>
     <div class="parallax-background"></div>
+    
     <header class="header">
         <div class="header__logo">
             <a data-scroll href="#intro">
@@ -72,9 +74,8 @@
         <nav class="header__nav-bar">
             <ul class="header__nav-list nav">
                 <li><a data-scroll href="#intro">Home</a></li>
-                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#portfolio">Work</a></li>
                 <li><a data-scroll href="#about">About</a></li>
-                <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
         </nav>
         <nav class="header__nav-bar header__nav-bar--mobile">
@@ -84,9 +85,8 @@
              </div>
             <ul>
                 <li><a data-scroll href="#intro">Home</a></li>
-                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a data-scroll href="#portfolio">Work</a></li>
                 <li><a data-scroll href="#about">About</a></li>
-                <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -94,7 +94,7 @@
     <!--preloader-->
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="img/logoWhite.png" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="img/logo_load.png" alt="preloader">
         </div>
 
         <div class="ip-loader">
@@ -109,41 +109,238 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* Intro  */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="intro">
-        <div class="black-overlay"></div>
-        <div class="container valign">
-            <div class="row">
-                  <div class="col-md-6 col-md-offset-3 text-center">
-                    <h4>
-                        THE PORTFOLIO OF
-                    </h4>
+     <span id="intro" class="intro-scrollspy-fix"></span>
+    <section id=masthead>
+        <div class="masthead">
+            <div class="row masthead-row">
+                <div class="col-md-7">
                 </div>
-                <div class="col-md-12">
-                    <img src="img/logoBlack.png" class="img-responsive center-block introLogo" alt="Intro Logo">
-                </div>
-
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <p>
-                        Art Director  &nbsp; I  &nbsp; Designer &nbsp;  I &nbsp; Digital &nbsp;  I &nbsp;  Brand
-                    </p>
-                </div>
-
+                    <div class="col-md-5">          
+                        <h1 class="grad"data-scroll-reveal="enter left move 10px over 1s after 0.2s">Designer for the Digital World</h1>
+                        <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                        I'm Connor, a product designer currently creating digital experiences at BAMTECH Media in New York City. For 7 years I’ve been specializing in design for interactive websites, connected devices, mobile applications and wearable devices. I’ve even been able to execute branding for some large companies along the way. Shoot me a message if you have awesome work to do at connor.paglia@gmail.com.
+                        </p>    
+                    </div>
             </div>
-        </div>
+        </div>    
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* END Intro  */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
+   
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--/* portfolio SECTION */-->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section id="portfolio">
+        <div class="gallery js-isotope" data-isotope-options='{ "itemSelector": ".gallery-inner", "masonry": { "columnWidth": ".grid-sizer" } }'>
+
+            <!--grid sizer for columns to be used in the data-isotope-options-->
+            <div class="grid-sizer"></div>
+
+     <!--item -->
+            <div class="gallery-inner mix">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=nhl">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Web / iOS / Connected Devices</p>
+                                <h4>NHL</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/4@2x.jpg">
+
+            </div>
+            <!--end item -->
+
+             <!--item -->
+            <div class="gallery-inner graphics">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=eurosport">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Web / iOS / Android / Connected Devices</p>
+                                <h4>eurosport Player</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                    <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/1.jpg">
+
+            </div>
+            <!--end item -->
+
+       
+
+            <!--item -->
+            <div class="gallery-inner video">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=hbo">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Web / iOS / Android / Connected Devices </p>
+                                <h4>HBO NOW</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/2.jpg">
+
+            </div>
+            <!--end item -->
+
+
+
+            <!--item -->
+            <div class="gallery-inner graphics video">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=mlb">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Web</p>
+                                <h4>MLB</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/3@2x.jpg">
+
+            </div>
+            <!--end item -->
+
+
+                     <!--item -->
+            <div class="gallery-inner graphics">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=mysteriousDeep">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Brand / Illustration / iOS</p>
+                                <h4>Mysterious Deep</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/7.jpg">
+
+            </div>
+
+
+            <!--item -->
+            <div class="gallery-inner video">
+                <!-- caption -->
+                <a href="/Portfolio/portfolio.html?name=grandPenguin">
+                    <div class="caption text-center ">
+                        <div class="captionWrapper valign">
+                            <div class="caption-heading">
+                                <p>Web / Brand / Package Design</p>
+                                <h4>Grand Penguin</h4>
+                                <div class="btn btn-default">More</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end caption -->
+
+                <img alt="thumbnail" class="galleryImage" src="img/gallery/6.jpg">
+
+            </div>
+            <!--end item -->
+
+        </div>
+    </section>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--/* end portfolio SECTION */-->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--/* TEXT SEPARATOR */-->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <span id="about" class="about-scrollspy-fix"></span>
+    <section id="text-separator">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">Recognition</h2>
+                    <img src="img/lineSeparatorWhite.png" class="img-responsive lineSeparator" data-scroll-reveal="enter left move 10px over 1s after 0.4s" alt="separator">
+                    <p data-scroll-reveal="enter left move 10px over 1s after 0.4s">
+                       
+                        <span class="listGrey">Features</span><br>
+                        <span class="listRed">Behance:</span> Featured on Best of Graphic Design gallery<br>
+                        <span class="listRed">Behance:</span> Featured on Best of Interaction Design gallery<br>
+                        <span class="listRed">Apple:</span> Featured App Promotion (PGA Tour Live)<br>
+                        <span class="listRed">Apple:</span> Featured App Promotion (HBO NOW)<br><br>
+                    
+                   
+
+                        <span class="listGrey">Awards</span><br>
+                        <span class="listRed">Cynopsis Media Awards:</span> Best Daily Sports Series and Best Video Technology Platform<br>
+                        <span class="listRed">Apple:</span> Best apps of 2014(120 Sports)<br>
+                        <span class="listRed">Grusken Group:</span> Web Excellence Award<br>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2 data-scroll-reveal="enter left move 10px over 1s after 0.4s">Experience</h2>
+                    <img src="img/lineSeparatorWhite.png" class="img-responsive lineSeparator" data-scroll-reveal="enter left move 10px over 1s after 0.6s" alt="separator">
+                    <p data-scroll-reveal="enter left move 10px over 1s after 0.6s">
+                        
+                      
+                        <span class="listRed">Jul 15’ - Present</span><br>
+                        <span class="listGrey">BAMTECH Media , New York</span><br><br>
+
+                        
+                        <span class="listRed">Jan 2014 - Jul 2015</span><br>
+                        <span class="listGrey">MLB Advanced Media, New York</span><br><br>
+                        
+                        
+                        <span class="listRed">May 2013 - Jan 2014</span><br>
+                        <span class="listGrey">Warner Music Group, New York (Freelance)</span><br><br>
+                        
+                        
+                        <span class="listRed">April 2012 - Aug 2012</span><br>
+                        <span class="listGrey">Ogilvy and Mather, New Jersey (Internship)</span><br><br>
+        
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--/* END TEXT SEPARATOR */-->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* TEXT SEPARATOR */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <section id="text-separator">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">CLIENTS</h2>
+                    <h2 data-scroll-reveal="enter left move 10px over 1s after 0.3s">Clients</h2>
 
                 </div>
             </div>
@@ -191,299 +388,7 @@
     <!--/* END TEXT SEPARATOR */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* portfolio SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="portfolio">
-        <div class="gallery js-isotope" data-isotope-options='{ "itemSelector": ".gallery-inner", "masonry": { "columnWidth": ".grid-sizer" } }'>
 
-            <!--grid sizer for columns to be used in the data-isotope-options-->
-            <div class="grid-sizer"></div>
-
-             <!--item -->
-            <div class="gallery-inner graphics">
-                <!-- caption -->
-                <a href="/portfolio.html?name=eurosport">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web / iOS / Android / Connected Devices</p>
-                                <h4>eurosport Player</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                    <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/1.jpg">
-
-            </div>
-            <!--end item -->
-
-
-
-            <!--item -->
-            <div class="gallery-inner video">
-                <!-- caption -->
-                <a href="/portfolio.html?name=hbo">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web / iOS / Android / Connected Devices </p>
-                                <h4>HBO NOW</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/2.jpg">
-
-            </div>
-            <!--end item -->
-
-
-
-            <!--item -->
-            <div class="gallery-inner graphics video">
-                <!-- caption -->
-                <a href="/portfolio.html?name=mlb">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web</p>
-                                <h4>MLB</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/3.jpg">
-
-            </div>
-            <!--end item -->
-
-            <!--item -->
-            <div class="gallery-inner mix">
-                <!-- caption -->
-                <a href="/portfolio.html?name=nhl">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web / iOS / Connected Devices</p>
-                                <h4>NHL</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/4.jpg">
-
-            </div>
-            <!--end item -->
-
-
-                     <!--item -->
-            <div class="gallery-inner graphics">
-                <!-- caption -->
-                <a href="/portfolio.html?name=mysteriousDeep">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Brand / Illustration / iOS</p>
-                                <h4>Mysterious Deep</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/7.jpg">
-
-            </div>
-            <!--end item -->
-
-            <!--item -->
-            <div class="gallery-inner graphics mix">
-                <!-- caption -->
-                <a href="/portfolio.html?name=pga">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web / iOS / Android / Connected Devices</p>
-                                <h4>PGA Tour Live</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/5.jpg">
-
-            </div>
-            <!--end item -->
-
-
-
-            <!--item -->
-            <div class="gallery-inner video">
-                <!-- caption -->
-                <a href="/portfolio.html?name=grandPenguin">
-                    <div class="caption text-center ">
-                        <div class="captionWrapper valign">
-                            <div class="caption-heading">
-                                <p>Web / Brand / Package Design</p>
-                                <h4>Grand Penguin</h4>
-                                <div class="btn btn-default">More</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- end caption -->
-
-                <img alt="thumbnail" class="galleryImage" src="img/gallery/6.jpg">
-
-            </div>
-            <!--end item -->
-
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* end portfolio SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <span id="about" class="about-scrollspy-fix"></span>
-    <section id="text-separator">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">ABOUT</h2>
-                    <img src="img/lineSeparatorWhite.png" class="img-responsive lineSeparator" data-scroll-reveal="enter left move 10px over 1s after 0.3s" alt="separator">
-                    <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
-                        Hello! I’m Connor, an award winning designer residing in the beautiful grand ol’ city of New York. I’ve been designing experiences for over 7 years. Specializing in design for interactive websites, applications for countless platforms, as well as branding. I always have a ear open for interesting projects, challenges and opportunities. Feel free to shoot me a message.
-                    </p>
-                </div>
-            </div>
-
-            <img src="img/textSeparatorLogo.png" class="textSepLogo connor-head" data-stellar-ratio="1.3" alt="Logo Black">
-        </div>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <!--/* TEXT SEPARATOR */-->
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <section id="text-separator-timers">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-                        <h1>
-                            <span class="timer1"></span>
-                        </h1>
-                        <p>Projects shipped</p>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-                        <h1>
-                            <span class="timer2"></span>
-                        </h1>
-                        <p>Platforms Designed</p>
-                    </div>
-
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-                        <h1>
-                            <span class="timer3"></span>
-                        </h1>
-                        <p>Professional Awards</p>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-                        <h1>
-                            <span class="timer4"></span>
-                        </h1>
-                        <p>Years Designing</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <!--/* END TEXT SEPARATOR */-->
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* END TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* contact SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="contact" class="contact-section-padding-fix">
-        <div class="contact-image"></div>
-        <div class="container-fluid contact-container-fluid-fix">
-            <!--header-->
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 data-scroll-reveal="enter top move over 1s after 0.2s">
-                        Contact</h2>
-                </div>
-            </div>
-
-            <!--end header-->
-
-            <!--content-->
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12" data-scroll-reveal="enter left move over 1s after 0.2s">
-                    <p class="bold contact-subtitle">Don't be shy. Send me a message.</p>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
-                            <ul class="infoContact">
-                                <li><i class="fa fa-location-arrow contact-bullet-align"></i><a class="contact-link" href="https://www.google.com/maps/place/Henry+St,+Milltown,+NJ+08850/@40.4463334,-74.4339203,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3c5c22bebf03d:0xd53bdde625f4a102!8m2!3d40.4463293!4d-74.4317263">Henry St, Milltown, NJ 08850</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
-                            <ul class="infoContact">
-                                <li><i class="fa fa-location-arrow contact-bullet-align"></i><a class="contact-link" href="https://www.google.com/maps/place/W+17th+St,+New+York,+NY+10011/@40.7410745,-74.0019069,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bc21713253:0xe79ab8ddef511466!8m2!3d40.7410705!4d-73.9997129">17th St, New York, NY 10011</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
-                            <ul class="infoContact">
-                                <li><i class="fa fa-phone contact-bullet-align"></i><a class="contact-link" href="tel:732-421-8682">732-421-8682</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
-                            <ul class="infoContact">
-                                <li><i class="fa fa-envelope-o contact-bullet-align"></i><a class="contact-link" href="mailto:connor.paglia@gmail.com">connor.paglia@gmail.com</a></li>
-                            </ul>
-                        </div>
-                   </div>
-
-                    <!--<ul class="socialContact">
-                        <li><a class="fa fa-behance" href="https://www.behance.net/connorpaglia"></a></li>
-                    </ul>-->
-
-                </div>
-
-
-            </div>
-            <!--end content-->
-        </div>
-    </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* END contact SECTION */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -491,7 +396,7 @@
     <section id="footer" class="dark">
         <div class="bottomLine text-left">
             <ul class="footerSocialIcons">
-                <li><a href="https://www.linkedin.com/in/connor-paglia-93881455"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/connapags/"><i class="fa fa-instagram fa-2x"></i></a></li>
                 <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
             </ul>
             <h5>© CP Design 2017.</h5>
@@ -511,16 +416,16 @@
 
         // Customizing a reveal set
         sr.reveal('.client-header-reveal', {
-            duration: 2000,
+            duration: 10,
             origin: 'left',
             distance: '50px',
             scale: 1
         })
         sr.reveal('.client-reveal', {
-            duration: 700,
+            duration: 1000,
             origin: 'left',
             distance: '10px'
-        }, 60);
+        }, 80);
     </script>
     <script src="js/header.js"></script>
 </body>
