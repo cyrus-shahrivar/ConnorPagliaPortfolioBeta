@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
     font-weight: 300;
 }
 
@@ -45,6 +45,7 @@ section {
     position: relative;
 }
 
+
 .container {
     position: relative;
 }
@@ -58,9 +59,14 @@ section .container {
     z-index: 3;
     position: relative;
     padding-top: 30px;
-    padding-bottom: 20px;
+
 }
 
+.masthead {
+height: 100vh;
+width: 100vw;
+position: relative;
+background-color: #14161C;
 
 }
 .separator {
@@ -75,11 +81,18 @@ section .container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.lineSeparator2 {
+    width: 40px;
+    max-width: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .preloaderLogo {
     min-width: 120px;
     max-width: 220px;
     width: 15%;
-}
+} 
 .black-overlay {
     position: absolute;
     left: 0;
@@ -130,26 +143,38 @@ section .container {
     background: transparent;
     border-radius: 0;
     border: 0;
+    
+    
 }
 .btn-default {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     position: relative;
     display: inline-block;
     font-size: 12px;
     color: #fff;
-    padding: 0 40px;
+    padding: 5px 50px 5px;
     line-height: 40px;
     letter-spacing: .2em;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     outline: 1px solid transparent;
-    -webkit-transition: all .5s ease .25s;
-    transition: all .5s ease .25s;
+
+    -webkit-transition: all .25s ease .15s;
+    transition: all .25s ease .15s;
 }
 .btn-default:hover {
-    border-color: white;
+  border-color: #CE272A;
+  color: #fff;
+
+  background-image: -webkit-linear-gradient(right, #A41A43, #CE272A); /* For Safari 5.1 to 6.0 */
+  background-image: -o-linear-gradient(left, #A41A43, #CE272A); /* For Opera 11.1 to 12.0 */
+  background-image: -moz-linear-gradient(left, #A41A43, #CE272A); /* For Firefox 3.6 to 15 */
+  background-image: linear-gradient(to left, #A41A43, #CE272A); /* Standard syntax */
+ -webkit-transition: all .25s ease .15s;
+transition: all .25s ease .15s;
+
 }
 .btn-default:after,
 .btn-default:before {
@@ -160,7 +185,10 @@ section .container {
     width: 2px;
     height: 100%;
     top: 0;
-    background: white;
+    background: #CE272A;
+
+
+
 }
 .btn-default:before {
     left: -8px;
@@ -179,9 +207,10 @@ section .container {
 .btn-default:active,
 .btn-default.active,
 .open>.dropdown-toggle.btn-default {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: white;
+    color: #fff;
+    background-color: #CE272A;
+    border-color: #CE272A;
+    
 }
 .btn:active,
 .btn.active {
@@ -302,28 +331,35 @@ section .container {
     background-color: #d5d5d5;
 }
 
+
 /*TEXT STYLES*/
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+   
 }
 h1 {
-    font-size: 50px;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    padding-bottom: 10px;
+    font-size: 56px;
+    padding-bottom: 20px;
+  background: -webkit-linear-gradient(right, #A41A43, #CE272A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #A41A43, #CE272A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #A41A43, #CE272A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #A41A43, #CE272A); /* Standard syntax */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ font-family: 'Yeseva One', cursive;
+  
+
 }
+
 h2 {
-    font-size: 36px;
-    text-transform: uppercase;
-    letter-spacing: 13px;
+    font-size: 60px;
+ font-family: 'Yeseva One', cursive;
 }
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     font-size: 18px;
     line-height: 36px;
     font-weight: 400;
@@ -333,25 +369,51 @@ h3 {
 h4 {
     font-size: 22px;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 7px;
     line-height: 26px;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 h5 {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4c4c4c;
+    font-size: 15px;
+    line-height: 24px;
+    color: #70737C;
 }
 p.bold {
     font-weight: 500;
 }
+p.light {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #70737C;
+}
+.listRed {
+    font-family: 'Crimson Text', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #CE272A;
+    
+}
+.listGrey {
+    font-family: 'Crimson Text', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #70737C;
+    
+}
+
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
@@ -374,14 +436,14 @@ p.bold {
 }
 #intro h4 {
     color: #606060;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: px;
 }
 .introLogo {
     position: relative;
     width: 800px;
     margin-bottom: 10px;
-      animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82);
+    animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82);
     -moz-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82);
     -webkit-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82); /* Safari and Chrome */
     -o-animation: onLoad 5s cubic-bezier(0.4, 0.02, 0.57, 0.82); /* Opera */
@@ -399,7 +461,6 @@ p.bold {
     opacity: 1;
   }
 }
-
 #intro .separator {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -407,6 +468,7 @@ p.bold {
 #intro a {
     margin-top: 20px;
 }
+
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
@@ -423,7 +485,6 @@ p.bold {
 #text-separator-timers {
     background-color: #131419;
     padding-top: 50px;
-    padding-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
     overflow: hidden;
@@ -446,7 +507,7 @@ p.bold {
 .textSepLogo {
     position: absolute;
     right: 0;
-    top: 0;
+    left: 0;
     z-index: 1;
 }
 .timerWrapper {
@@ -1019,6 +1080,7 @@ p.bold {
     display: inline;
 }
 
+
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 /*<!--Contact -->*/
@@ -1159,7 +1221,7 @@ textarea {
     padding-bottom: 20px;
     padding-top: 20px;
     margin: 0 auto;
-    background-color: #131419;
+    background-color: #111;
 }
 #footer .bottomLine p {
     color: #252729;
@@ -1532,22 +1594,42 @@ ol {
 }
 
 /* Background Fix*/
-.parallax-background {
-    background-image: url('../img/background1@2x.jpg');
+
+
+
+
+.background-layer {
+    background-image: url('../img/clients/C_large_letter.png');
     background-size: cover;
     background-position: center;
     height: 100%;
-    width: 100%;
-    z-index: -9999999;
-    position: fixed;
+    width: 40%;
+    z-index: 1;
+    align-content: center;
+    position: absolute;
 }
 
-body.not-desktop #intro {
-    background-image: url('../img/background1@2x.jpg');
+
+
+.masthead-row {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/intro@2x.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: 50%;
+    padding-right: 12vw;
 }
 
-body.not-desktop .parallax-background {
-    display: none;
+
+
+/*@keyframes fadeUp {
+    from { 
+      opacity: 0;
+      transform: translate3d(0, 0, 0);
+    }
+    to   { 
+      opacity: 1;
+      transform: translate3d(0, -20%, 0);
+    }
 }
