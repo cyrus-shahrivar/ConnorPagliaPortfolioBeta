@@ -1,0 +1,132 @@
+{
+    "hbo": {
+        "clientShortName": "HBO",
+        "heroVideo": "img/portfolioPages/heroVideos/HBO_Hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/hbo@2x.png",
+        "logoHeight": "20px",
+        "logoWidth": "47px",
+        "largeLetter": "H",
+        "largeLetterImage": "img/clients/hbo_large_letter.svg",
+        "primaryColor": "#0169A8",
+        "title": "HBO Now",
+        "subtitle": "Cutting the cord on everything from Game of Thrones to Sesame Street",
+        "clientOfficialName": "HBO",
+        "role": "Product Design & Management Liason",
+        "nextProjectLink": "/portfolio.html?name=mlb",
+        "nextProjectName": "Major League Baseball",
+        "nextProjectImage": "img/portfolioPages/HBO/MLB_Banner_next_project.jpg",
+        "detailSections": [{
+                "title": "Premium shows without cable",
+                "blurb": "Leading the movement, HBO was looking to offer a stand-alone service with a completely refreshed design. 4 platforms were shipped in less than 4 months. Just in time for the record-setting Game of Thrones Season 5 Premier.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/HBO_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/HBO_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/HBO_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Updated features out of the gate",
+                "blurb": "Continue watching, add to watchlist, parental controls, and extended closed captions were all refined for launch. Creating and vetting external designs, and communicating to a large development team, organization and communication were closely knit.",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "assetType": "video",
+                            "url": "img/portfolioPages/HBO/hbo_web.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video1.jpg",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/hbo_desktop_comp.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/HBO_Web1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/HBO_Web2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "detail-section__image-container--40-margin-top-float-right-special",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Consolidating HBO's apps",
+                "blurb": "Users who have a HBO subscription from their premium cable provider have access to HBO GO. However, users who just want to pay a flat rate for HBO without the cable service can purchase HBO Now. This introduces two seperate applications, which both should act and contain the same content. Therefore, we worked on porting over the design and IA updates to HBO GO as well, giving users a consistent experience when using all HBO products.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "video",
+                            "url": "img/portfolioPages/HBO/hbo_cd.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video3.jpg",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                            "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/HBO/hbotype@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "video",
+                            "url": "img/portfolioPages/HBO/hbo_interaction.mp4",
+                            "placeholder": "img/portfolioPages/HBO/HBO_placeholder_video2.jpg",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#1f1f22">
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connor Paglia - Portfolio</title>
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700|Six+Caps|Yeseva+One|Montserrat:400,500,600,700,800"rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="js/handlebars-v4.0.10.js"></script>
+    <script id="header" type="text/x-handlebars-template">
+        <header class="header">
+            <div class="header__logo">
+                <a href="/index.html?notHomeReturn=true&scrollTo=intro">
+                    <img alt="thumbnail" class="header__logo" src="img/cp_header_logo@2x.png">
+                </a>
+            </div>
+            <div class="header__open-close-button">
+                <div class="wrapper-menu">
+                    <div class="line-menu half start"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu half end"></div>
+                  </div>
+            </div>
+            <nav class="header__nav-bar">
+                <ul>
+                    <li><a href="/index.html?notHomeReturn=true&scrollTo=intro">HOME</a></li>
+                    <li><a class="active" href="/index.html?notHomeReturn=true&scrollTo=portfolio">WORK</a></li>
+                    <li><a href="/index.html?notHomeReturn=true&scrollTo=about">ABOUT</a></li>
+                </ul>
+            </nav>
+            <nav class="header__nav-bar header__nav-bar--mobile">
+                <div class="header__background-mask"></div>
+                <div class="header__logo">
+                    <a href="/Portfolio/index.html?notHomeReturn=true&scrollTo=intro"></a>
+                </div>
+                <ul>
+                    <li><a href="/index.html?notHomeReturn=true&scrollTo=intro">Home</a></li>
+                    <li><a href="/index.html?notHomeReturn=true&scrollTo=portfolio">Work</a></li>
+                    <li><a href="/index.html?notHomeReturn=true&scrollTo=about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    </script>
+    <script id="hero" type="text/x-handlebars-template">
+        <section id="hero-section" class="hero">
+            <section class="hero__description" style="background-image: url({{largeLetterImage}})">
+                <div class="hero__logo {{#if isSvg}}{{isSvg}}{{/if}}" style="background-image: url({{logo}}); height: {{logoHeight}}; width: {{logoWidth}};">
+                </div>
+                <hr class="hero__divider">
+                <h1 class="hero__title">{{title}}</h1>
+                <h2 class="hero__subtitle">{{subtitle}}</h2>
+                <div class="hero__details">
+                    <div class="hero__client">
+                        <h3 class="hero__client-title">Client</h3>
+                        <p class="hero__client-description">{{clientOfficialName}}</p>
+                    </div>
+                    <div class="hero__role">
+                        <h3 class="hero__role-title">Role</h3>
+                        <p class="hero__role-description">{{role}}</p>
+                    </div>
+                </div>
+            </section>
+            <div class="hero__video-container">
+                <video class="hero__video" src="{{heroVideo}}" autoplay loop muted></video>
+            </div>
+            <section class="hero__mask" style="background-color: {{primaryColor}}"></section>
+        </section>
+    </script>
+    <script id="content" type="text/x-handlebars-template">
+        <section class="main-content">
+            <section class="detail-sections">
+                {{#each detailSections}}
+                <section class="detail-section detail-section--{{imageScheme}}">
+                    {{#unless noDescription}}
+                    <div class="detail-section__description">
+                        <h1 class="detail-section__title">{{title}}</h1>
+                        <p class="detail-section__blurb">{{blurb}}</p>
+                    </div>
+                    {{/unless}}
+                    <div class="detail-section__images--{{imageScheme}} {{specialClass}}">
+                        {{#each imageGroups}}
+                        <div class="detail-section__image-group">
+                            {{#each this}}
+                                {{#equals this.assetType "image"}}
+                                    <div class="detail-section__image-container {{this.specialContainerClass}}">
+                                        <img class="detail-section__image {{this.specialAssetClass}}" src="{{this.url}}" style="{{#if this.height}}height: {{this.height}};{{/if}} {{#if this.width}}width: {{this.width}};{{/if}}"/>
+                                    </div>
+                                {{/equals}}
+                                {{#equals this.assetType "video"}}
+                                    <div class="detail-section__image-container">
+                                        <video class="{{this.specialAssetClass}}" src="{{this.url}}" height="{{this.height}}" width="{{this.width}}" {{#if this.placeholder}}poster="{{this.placeholder}}"{{/if}} autoplay loop muted></video>
+                                    </div>
+                                {{/equals}}
+                            {{/each}}
+                        </div>
+                        {{/each}}
+                    </div>
+                </section>
+                {{/each}}
+            </section>
+        </section>
+    </script>
+    <script id="footer" type="text/x-handlebars-template">
+    <section class="more-work more-work-image grow" style="background-image:url({{nextProjectImage}});">
+            <div class="more-work-mask"></div>
+            <a class="more-work__title" href="{{nextProjectLink}}">    <div> <h4>NEXT PROJECT</h4></div> {{nextProjectName}}  <div>&rarr;</div> </a>
+
+        </section>
+
+         <section id="footer" class="dark">
+        <div class="bottomLine text-left">
+            <ul class="footerSocialIcons">
+                <li><a href="https://www.linkedin.com/in/connor-paglia-93881455"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://www.behance.net/connorpaglia"><i class="fa fa-behance fa-2x"></i></a></li>
+            </ul>
+            <h5>© CP Design 2017.</h5>
+        </div>
+    </section>
+
+    </script>
+    <script id="main" type="text/x-handlebars-template">
+        {{> header}}
+        <main>
+            {{> hero}} {{> content}}
+        </main>
+        {{> footer}}
+    </script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

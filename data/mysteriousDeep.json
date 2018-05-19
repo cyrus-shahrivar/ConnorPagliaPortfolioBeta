@@ -1,0 +1,111 @@
+{
+    "mysteriousDeep": {
+        "clientShortName": "Mysterious Deep",
+        "heroVideo": "img/portfolioPages/heroVideos/Mysterious_Hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/mysterious-deep@2x.png",
+        "logoHeight": "30px",
+        "logoWidth": "30px",
+        "largeLetter": "M",
+        "largeLetterImage": "img/clients/mlb_large_letter.svg",
+        "primaryColor": "#036658",
+        "title": "The Mysterious Deep",
+        "subtitle": "A conceptual pitch for an exhibition at The Australian Museum",
+        "clientOfficialName": "The Australian Museum",
+        "role": "Creative Director",
+        "nextProjectLink": "/portfolio.html?name=pga",
+        "nextProjectName": "PGA Tour Live",
+        "nextProjectImage": "img/portfolioPages/MysteriousDeep/PGA_Banner_nextproject.jpg",
+        "detailSections": [{
+                "title": "An exibition that evokes intrigue",
+                "blurb": "We know less about the ocean depths than almost anything else on this earth. A dark hostile environment, that brings through the sense of imagination and interest towards the ocean's unknown.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/MysteriousDeep/Mysterious_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Back to the roots",
+                "blurb": "Growing up and in my early design years, illustration was a key interest and strength that I enjoyed to do. Being able to apply it with this project allowed for the digital and virtual experience to have a level of personality that wouldn't have been able to be achieved otherwise.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Mysterious-Apps@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/mysterioustype@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Mysterious_print@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/Anglerfish@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/VampireSquid@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    },
+                    {
+                        "assetType": "image",
+                        "url": "img/portfolioPages/MysteriousDeep/AnglerCover@2x.jpg",
+                        "height": "",
+                        "width": "",
+                        "specialContainerClass": "",
+                        "specialAssetClass": ""
+                    }
+                ]
+                ]
+            }
+        ]
+    }
+}

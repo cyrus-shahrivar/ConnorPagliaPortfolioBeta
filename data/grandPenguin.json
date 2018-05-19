@@ -1,0 +1,82 @@
+{
+    "grandPenguin": {
+        "clientShortName": "Grand Pengin",
+        "heroVideo": "img/portfolioPages/heroVideos/GP_Hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/grandpenguin_logo.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "42px",
+        "logoWidth": "23px",
+        "largeLetter": "G",
+        "largeLetterImage": "img/clients/gp_large_letter.svg",
+        "primaryColor": "#725319",
+        "title": "Grand Penguin",
+        "subtitle": "Giving life to a unique craft beer brand brewed batch by batch",
+        "clientOfficialName": "Grand Penguin Beer Co.",
+        "role": "Creative Director",
+        "nextProjectLink": "/portfolio.html?name=eurosport",
+        "nextProjectName": "Eurosport Player",
+        "nextProjectImage": "img/portfolioPages/GrandPenguin/Eurosport_Banner_nextproject.jpg",
+        "detailSections": [{
+                "title": "Differentiating in a saturated craft beer market",
+                "blurb": "This small craft beer company was looking to appeal to the classic gentleman, with a sense of humor and personality. The messaging reaches to the vices and virtues of many, providing its first beer of many to come - a Black IPA named Coffee & Cigarettes.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "assetType": "video",
+                            "url": "img/portfolioPages/GrandPenguin/grandpenguin.mp4",
+                            "placeholder": "img/portfolioPages/GrandPenguin/GP_placeholder_video1.jpg",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                           "specialAssetClass": "detail-section__image--80-margin-bottom-special"
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/GP_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/GP_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "A unique look for a unique brand",
+                "blurb": "Hand drawn illustrations incorporated into ornamental, dark packaging gave this brand a feel perfect for the owners vision and target audience.",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/GP_packagedesign@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/GrandPenguin/GP_productshot@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "eurosport": {
+        "clientShortName": "Eurosport",
+        "heroVideo": "img/portfolioPages/heroVideos/Euro_hero.mp4",
+        "heroImage": "https://source.unsplash.com/random/1200x680",
+        "logo": "img/clients/clients2/eurosport.svg",
+        "isSvg": "hero__logo--svg",
+        "logoHeight": "23px",
+        "logoWidth": "19px",
+        "largeLetter": "E",
+        "largeLetterImage": "img/clients/eurosport_large_letter.svg",
+        "primaryColor": "#C10538",
+        "title": "Eurosport Player",
+        "subtitle": "Scaling one of the largest european sports and entertainment brands to fans all over Europe",
+        "clientOfficialName": "Discovery Communnications",
+        "role": "Lead Designer",
+        "nextProjectLink": "/portfolio.html?name=hbo",
+        "nextProjectName": "HBO Now",
+        "nextProjectImage": "img/portfolioPages/Eurosport/HBO_Banner_nextproject.jpg",
+        "detailSections": [{
+                "title": "A global experience",
+                "blurb": "Eurosport's catalog consisted of over 300 sports and activities, presenting many complex UX challenges. With all of this content, support for over 20 languages was also required. Simplifying the IA, as well as designing a user friendly navigation and iconography helped fans find and watch their favorite content.",
+                "imageScheme": "one-two-splice",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/Euro_Top@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/Euro_Banner_image1@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/Euro_Banner_image2@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Extending the reach",
+                "blurb": "From playstation to tvOS and Tizen, we were able to expand Eurosport Player onto new connected device platforms for a lean-back and watch experience to meet different user's needs.",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "assetType": "video",
+                            "url": "img/portfolioPages/Eurosport/euro_cd.mp4",
+                            "placeholder": "img/portfolioPages/Eurosport/Eurosport_placeholder_video1.jpg",
+                            "height": "",
+                            "width": "100%",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/EarlierTodayVOD@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/Passes@2x.jpg",
+                            "height": "",
+                            "width": "",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                        
+                    ]
+                ]
+            },
+            {
+                "title": "",
+                "blurb": "",
+                "noDescription": "true",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/Devices@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+              {
+                "title": "",
+                "blurb": "",
+                "noDescription": "true",
+                "imageScheme": "single",
+                "specialClass": "",
+                "imageGroups": [
+                    [{
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/eurotype@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "",
+                "blurb": "",
+                "noDescription": "true",
+                "imageScheme": "one-two-split",
+                "specialClass": "",
+                "imageGroups": [
+                    [
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/EuroMobile@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/HomeSalesScreen@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        },
+                        {
+                            "assetType": "image",
+                            "url": "img/portfolioPages/Eurosport/VideoPlayerLive@2x.jpg",
+                            "specialContainerClass": "",
+                            "specialAssetClass": ""
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
