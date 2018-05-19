@@ -1612,13 +1612,13 @@ ol {
 
 
 .masthead-row {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     background-image: url(/intro@2x.jpg);
     background-size: cover;
     background-position: 50%;
-    padding-right: 12vw;
+    padding-right: 12%;
 }
 
 
