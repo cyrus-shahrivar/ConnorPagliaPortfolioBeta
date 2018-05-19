@@ -1613,6 +1613,7 @@ ol {
 
 .masthead-row {
     height: 100%;
+    width:100%;
     display: flex;
     align-items: center;
     background-image: url(/intro@2x.jpg);
@@ -1620,6 +1621,7 @@ ol {
     background-position: 50%;
     padding-right: 12%;
 }
+
 
 
 
